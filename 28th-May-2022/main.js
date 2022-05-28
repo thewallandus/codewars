@@ -46,3 +46,4 @@ summation(3);
 function noSpace(x){
     return x.split(" ").join("");
 }
+

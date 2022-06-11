@@ -18,7 +18,7 @@ const quarterOf = (month) => {
         return 2;
     } else if (month > 6 && month <= 9) {
         return 3;
-    } else if (month > 9 && month <= 12) {
+    } else {
         return 4;
     }
   }

@@ -5,3 +5,12 @@ A hero is on his way to the castle to complete his mission. However, he's been t
 Return True if yes, False otherwise :)
 
 */
+
+// TEST SHOULD BE WHAT: if bullets > dragons * 2 then yes
+// OR ELSE NO
+
+function hero(bullets, dragons){
+ 
+
+
+}

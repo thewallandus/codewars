@@ -12,3 +12,11 @@ n=-5, m=5:  0
 
 // Any edge cases: n < 0 or m < return 0
 // Otherwise just calculate, n*m
+
+function paperwork(n, m) {
+  if (n <= 0 || m <= 0) {
+    return 0
+  } else {
+      return n * m
+  }
+}

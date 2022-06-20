@@ -17,3 +17,12 @@ Input constraints:
 0 <= s <= 59
 
 */
+
+// CLOCK shows h hours.
+// Clock shows m minutes.
+// Clock shows s seconds.
+// Create a function.
+// This function will take in 3 parameters: hours, minutes, seconds.
+// Then it will multiply and convert the parameters into seconds.
+// Convert this number/variable into 1000 miliseconds.
+// Return.

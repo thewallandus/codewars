@@ -9,3 +9,6 @@ n= 5, m=5: 25
 n=-5, m=5:  0
 
 */
+
+// Any edge cases: n < 0 or m < return 0
+// Otherwise just calculate, n*m

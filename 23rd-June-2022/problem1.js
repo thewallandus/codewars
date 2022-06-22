@@ -19,3 +19,9 @@ You can assume that you do get an array and if the array is empty, return 0.
 
 */
 
+// Take an array.
+// Test the array length and check with a conditional if there are numbers or not.
+// Return sum of the numbers: maybe reduce?
+// Edge cases: can assume only numbers? YES!
+// Can't assume size of the array.
+// If array length = 0, then return zero.

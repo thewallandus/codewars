@@ -13,6 +13,15 @@ The input string can be of arbitrary length - in particular, it may be empty. Al
 
 */
 
+// In DNA: there are 4 nucleic acid bases.
+// GCAT.
+// RNA and DNA is very similar except it translates T into U.
+// So create a loop that loops through the string.
+// Then check if the string element is T: if YES, then convert it to U.
+// Push it and replace the string in the string sequence and keep carrying on.
+// RETURN IT.
+
+
 function DNAtoRNA(dna) {
     // create a function which returns an RNA sequence from the given DNA sequence
   }

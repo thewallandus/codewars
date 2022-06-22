@@ -25,3 +25,17 @@ You can assume that you do get an array and if the array is empty, return 0.
 // Edge cases: can assume only numbers? YES!
 // Can't assume size of the array.
 // If array length = 0, then return zero.
+
+function sum(numbers) {
+    if (numbers.length === 0) {
+      return 0
+    } else {
+      const sum = numbers.reduce((acc, element) => {
+        return acc + element
+      }, 0)
+      return sum
+    }
+};
+
+sum([]);
+sum([1, 5.2, 4, 0, -1]);

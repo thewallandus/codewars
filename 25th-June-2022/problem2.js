@@ -15,7 +15,6 @@ In this Kata, a string is said to be in ALL CAPS whenever it does not contain an
 
 */
 
-// Run a for loop to run through the string.
-// Create a conditional to check if the condition is met: here the condition is: if all are CAPS.
-// If not return false.
-// If yes, return true.
+String.prototype.isUpperCase = function() {
+    return this.toUpperCase() === this.toString();
+  }

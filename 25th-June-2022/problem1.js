@@ -14,3 +14,17 @@ You may consider that there will not be any empty arrays/vectors.
 
 
 */
+
+// Take in an array 
+// Create two functions: max and min
+// Receive array numbs
+// Return largest and lowest in the list
+
+function max(list) {
+  
+}
+
+
+function min(list) {
+    
+}

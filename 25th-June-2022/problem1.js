@@ -20,11 +20,12 @@ You may consider that there will not be any empty arrays/vectors.
 // Receive array numbs
 // Return largest and lowest in the list
 
+
 function max(list) {
+    return Math.max(...list)
+  }
   
-}
-
-
-function min(list) {
-    
-}
+  
+  function min(list) {
+      return Math.min(...list)
+  }

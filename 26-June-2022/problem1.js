@@ -12,7 +12,18 @@ Note: for this kata y isn't considered a vowel.
 
 */
 
-// 
-// 
-// 
-// 
+// P[parameters]: ONLY string 
+// R[returns]: returns a NEW string with all vowels removed
+// E[examples]: "This website is for losers LOL!"), "Ths wbst s fr lsrs LL!"
+// P[pseudocode]:
+
+function disemvowel(str) {
+    let newStr = "",
+          i;
+  
+      for (i = 0; i < str.length; i++) {
+          if ("aeiou".includes(str[i].toLowerCase())) continue;
+          newStr += str[i];
+      }
+      return newStr;
+  }

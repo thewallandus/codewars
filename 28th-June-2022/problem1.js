@@ -8,6 +8,18 @@ Function should return true if it is possible and false if not.
 
 */
 
+
 const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
-    // TODO
-  };
+
+    // 	condition to check if condition is being met
+    // this condition will check if distanceToPump / mpg === total left || < totalgallons left then possible
+    
+      if (distanceToPump / mpg === fuelLeft || distanceToPump / mpg < fuelLeft) {
+        return true
+      } else {
+        return false
+      }
+      
+      
+    };
+    

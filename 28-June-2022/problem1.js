@@ -13,5 +13,9 @@ function simpleMultiplication(number) {
     // run a conditional to check even or odd
     // if even multiply by 8
     // Else 9
-
+    if (number % 2 === 0) {
+        return number * 8
+    } else {
+        return number * 9
+    }
 }

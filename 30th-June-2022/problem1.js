@@ -13,3 +13,38 @@ I is misinterpreted as 1
 The test cases contain numbers only by mistake.
 
 */
+
+// P: parameters: string
+// R: change string that has letter S, O, I, into 5, 0, 1: returns a new string
+// E: ("L0ND0N"),"LONDON": ("DUBL1N"),"DUBLIN"
+// P: pseudocode
+
+function correct(string)
+{
+  	//create a new string
+    let newStr = '';
+  	// loop through the string's characters
+  	// conditional to check 5, 0, 1 into S, O, I
+		// return newStr
+  
+  	for (let i = 0; i < string.length; i++) {
+      switch(string[i]) {
+        case '5':
+          newStr += 'S'
+          break;
+        case '0':
+          newStr += 'O'
+          break;
+        case '1':
+          newStr += 'I'
+          break;
+        default:
+          newStr += string[i]
+          break;
+      }
+    }
+  return newStr	
+}
+
+correct("L0ND0N");
+correct("DUBL1N");

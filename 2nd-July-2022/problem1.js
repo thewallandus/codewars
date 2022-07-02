@@ -23,6 +23,6 @@ function descendingOrder(n){
     // sort this array into ascending order
     // reverse it
     // join it and turn it into a string again
-    // take just the number from this string
+    // take just the number from this string.
     return Number(String(n).split('').sort().reverse().join(''))
   }

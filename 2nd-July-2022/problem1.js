@@ -11,7 +11,18 @@ Input: 123456789 Output: 987654321
 
 */
 
-//P
-// R
-// E
-// P
+// P: parameters: take a number that is non-negative including zero
+// R: returns: return its digits in descending order [as an integer]
+// E: examples: 15 -> 51 || 1021
+// P: pseudocode
+
+
+function descendingOrder(n){
+    //convert number to string
+    // convert this string into an array with split
+    // sort this array into ascending order
+    // reverse it
+    // join it and turn it into a string again
+    // take just the number from this string
+    return Number(String(n).split('').sort().reverse().join(''))
+  }

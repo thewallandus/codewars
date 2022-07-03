@@ -10,3 +10,18 @@ setAlarm(false, false) -> false
 setAlarm(true, false) -> true
 
 */
+
+// P: boolean, boolean \\ true if you are employed \\ true if on vacation
+// R: true if employed and not on vacation
+// R: false otherwise
+// E: setAlarm(true, true),  false
+// P: pseudocode
+
+function setAlarm(employed, vacation){
+    //coditional to check if yes or no
+    if (employed === true && vacation === false) {
+        return true
+    } else {
+        return false
+    }
+}

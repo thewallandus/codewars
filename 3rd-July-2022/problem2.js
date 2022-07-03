@@ -4,11 +4,7 @@ Implement String#digit? (in Java StringUtils.isDigit(String)), which should retu
 
 */
 
-// P: parameters
-// R: returns
-// E: examples
-// P: pseudocode
 
 String.prototype.digit = function() {
-    return false;
+    return /^\d$/.test(this);
   };

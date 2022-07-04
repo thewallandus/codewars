@@ -14,5 +14,6 @@ Examples (Input -> Output)
 // P: pseudo-code => 
 
 function reverseList(list) {
-    
+    // return list with a method that reverses the elements
+    return list.reverse()
 }

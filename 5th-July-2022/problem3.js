@@ -12,5 +12,9 @@ For example(Input --> Output):
 */
 
 function monkeyCount(n) {
-    // your code here
-    }
+	let arr = []
+  for (let i = n; i > 0; i--) {
+    arr.push(i)
+  }
+  return arr.reverse()
+}

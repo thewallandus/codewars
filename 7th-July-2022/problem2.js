@@ -21,3 +21,11 @@ Examples
 26  =>  false
 
 */
+
+var isSquare = function(n){
+    if (n % (Math.sqrt(n)) === 0 || n === 0) {
+    return true
+  } else {
+    return false
+  }
+}

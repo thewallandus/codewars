@@ -13,6 +13,10 @@ Note: keep the original order of the names in the output.
 
 */
 
+
 function friend(friends){
-    //your code here
-  }
+    const bestFriends = friends.filter((element) => {
+        return element.length === 4
+     })
+    return bestFriends
+}

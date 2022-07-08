@@ -14,7 +14,18 @@ Examples:(Input --> Output)
 
 */
 
+//P: integer
+//R: next square integer || or -1 integer
+//E: findNextSquare(121), 144 || findNextSquare(625), 676
+//P: pseudo-code
+
+
 function findNextSquare(sq) {
-    // Return the next square if sq is a perfect square, -1 otherwise
-    return -1;
+    if(sq % (Math.sqrt(sq)) === 0) {
+      return (Math.sqrt(sq) + 1) ** 2
+    } else {
+      return -1
+    }
 }
+
+findNextSquare(121)

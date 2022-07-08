@@ -17,6 +17,19 @@ Examples
 // E: examples: "Lets go to the movies"       -->  "L  E  T  S  G  O  T  O  T  H  E  M  O  V  I  E  S"
 // P: pseudo-code
 
-function vaporcode() {
-    
+
+
+function vaporcode(string) {
+    // create a new variable that turns the string into uppercase and removes the space in between by using an array loop
+    // loop through the string
+    // for every character add + " " + " "
+  	// then remove the last 2 spaces and return it
+  	let newString = string.split(" ").join("").toUpperCase()
+    let finalString = ""
+    for (let i = 0; i < newString.length; i++) {
+      finalString += newString[i] + " " + " "
+    }
+  	return finalString.slice(0, -2)
 }
+
+vaporcode("Lets go to the movies")

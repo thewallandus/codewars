@@ -16,6 +16,7 @@ gimme([5, 10, 14]) => 1
 
 */
 
-function gimme (triplet) {
-
-}
+const gimme = function (inputArray) {
+    const sorted = [...inputArray].sort((a, b) => a - b)
+    return inputArray.indexOf(sorted[1])
+  };

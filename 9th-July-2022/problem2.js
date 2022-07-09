@@ -28,6 +28,22 @@ Don't forget to convert the percent parameter as a percentage in the body of you
 
 */
 
-function nbYear(p0, percent, aug, p) {
-    // your code
-}
+// P: integers all of them
+// initial years => p0
+// percent increase => percent
+// aug => inhabitants coming every year
+// R: number that is a simple integer
+// E: nb_year(1500, 5, 100, 5000) -> 15
+// pseudo-code
+
+function nbYear(p0, percent, aug, p, years = 0) {
+    return p0 >= p
+      ? years
+      : nbYear(
+          Math.floor(p0 + p0 * (percent / 100)) + aug,
+          percent,
+          aug,
+          p,
+          years + 1
+        );
+  }

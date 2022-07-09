@@ -13,8 +13,19 @@ Remarks
 All arrays or lists will always have at least one element, so you don't need to check the length. Also, your function will always get an array or a list, you don't have to check for null, undefined or similar.
 
 */
+// P: an array of integers
+// R: an array with max number and minimum number
+// E: [1,2,3,4,5] --> [1,5]
+// P: pseudo-code
+
+// create a variable of the smallest number
+// create a variable of the largest number
+// create an array of the smallest number and the largest number
 
 
 function minMax(arr){
-    return [0,0]; // fix me!
-  }
+    let min = Math.min(...arr);
+    let max = Math.max(...arr);
+    let newArr = [min, max]
+    return newArr
+}

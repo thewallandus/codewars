@@ -14,6 +14,19 @@ Your goal in this kata is to determine which phrase the girls would say for a fl
 
 */
 
+// P: a number that's an integer
+// R: return a string
+// E: howMuchILoveYou(7),"I love you"
+// P: pseudo-code
+
 function howMuchILoveYou(nbPetals) {
-    // your code
-}
+    let phrase = {    
+      0: "not at all",
+      1: "I love you",
+      2: "a little",
+      3: "a lot",
+      4: "passionately",
+      5: "madly"
+    }
+    return phrase[nbPetals % 6]
+  }

@@ -19,6 +19,23 @@ Link to Jaden's former Twitter account @officialjaden via archive.org
 // Jaden-Cased:     "How Can Mirrors Be Real If Our Eyes Aren't Real"
 //P: pseudo-code
 
+// "How can mirrors be real if our eyes aren't real"
+// "How Can Mirrors Be Real If Our Eyes Aren't Real"
+
+
 function jadenCase(string) {
+    // turn the string into an array
+    // Loop through the array
+    // convert the first character of every element into upper case and remove the first character of every string as it was initially
+    // create a new array and turn it into a string
+    // return it
+    let array = string.split(" ")
+    const newArray = array.map((element) => {
+      return element = element[0].toUpperCase() + element.slice(1)
+    })
+    return newArray.join(" ")
+  }
   
-}
+  jadenCase("How can mirrors be real if our eyes aren't real");
+  
+  

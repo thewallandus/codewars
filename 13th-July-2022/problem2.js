@@ -14,7 +14,7 @@ String will never be empty and you do not need to account for different data typ
 function findShort(s){
     let array = s.split(" ")
     let smallestString = array.sort((a, b) => a.length - b.length)[0]
-		let smallestNum = smallestString.length
+	let smallestNum = smallestString.length
     return smallestNum
 }
 

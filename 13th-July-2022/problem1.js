@@ -22,5 +22,18 @@ XO("zzoo") => false
 // P: pseudo-code
 
 function XO(str) {
-    //code here
+    // convert string to lowercase
+    // check total count of "o" in the string
+    // check total count of "x" in the string
+    // conditional to check if total count of both is the same
+    // if no then return false
+    // if yes then return true
+      let strLowerCase = str.toLowerCase()
+      let counto = (strLowerCase.match(/o/g) || []).length
+      let countx = (strLowerCase.match(/x/g) || []).length
+      if (counto === countx) {
+        return true
+      } else {
+        return false
+      }
 }

@@ -10,6 +10,11 @@ The parameter of accum is a string which includes only letters from a..z and A..
 
 */
 
+//P: string
+//R: a string
+//E: accum("ZpglnRxqenU"), ("Z-Pp-Ggg-Llll-Nnnnn-Rrrrrr-Xxxxxxx-Qqqqqqqq-Eeeeeeeee-Nnnnnnnnnn-Uuuuuuuuuuu")
+//P: pseudo-code
+
 function accum(s) {
-	// your code
+	
 }

@@ -15,6 +15,13 @@ The parameter of accum is a string which includes only letters from a..z and A..
 //E: accum("ZpglnRxqenU"), ("Z-Pp-Ggg-Llll-Nnnnn-Rrrrrr-Xxxxxxx-Qqqqqqqq-Eeeeeeeee-Nnnnnnnnnn-Uuuuuuuuuuu")
 //P: pseudo-code
 
+
 function accum(s) {
-	
-}
+    var letters = s.split(''), words = [];
+  
+    for(var i = 0; i < letters.length; i++) {
+      words.push(letters[i].toUpperCase() + Array(i + 1).join(letters[i].toLowerCase()));
+    }
+  
+    return words.join('-');
+  }

@@ -11,6 +11,13 @@ Implement a function that accepts 3 integer values a, b, c. The function should 
 //E: examples \\ isTriangle(1,2,2), true
 //P: pseudo-code
 
+
 function isTriangle(a,b,c) {
-    
-}
+    if ((a + b) > c && (b + c) > a && (a + c) > b) {
+      return true
+    } else {
+      return false
+    }
+   }
+   
+isTriangle(1, 2, 2)

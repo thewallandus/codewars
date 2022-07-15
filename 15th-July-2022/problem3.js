@@ -21,6 +21,7 @@ If an empty value ( null, None, Nothing etc. ) is given instead of an array, or 
 //P: pseudo-code
 
 
+
 function sumArray(array) {
     // conditional to check for 0 return
     // these conditions will be null, none, nothing, or empty array, or list with just one element
@@ -30,4 +31,16 @@ function sumArray(array) {
     // remove both elmenets from the array to create a new array
     // run reduce function on the array and save it a sum variable
     // return sum variable
+  	if (array === null || array === undefined || array.length === 0 || array.length === 1) {
+      return 0
+    } else {
+      const min = Math.min(...array)
+      const max = Math.max(...array)
+      array.splice(array.indexOf(min), 1)
+      array.splice(array.indexOf(max), 1)
+      const sum = array.reduce((acc, element) => {
+        return acc + element
+      }, 0)
+      return sum
+  }
 }

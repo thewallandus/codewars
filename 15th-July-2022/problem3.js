@@ -22,5 +22,12 @@ If an empty value ( null, None, Nothing etc. ) is given instead of an array, or 
 
 
 function sumArray(array) {
-
+    // conditional to check for 0 return
+    // these conditions will be null, none, nothing, or empty array, or list with just one element
+    // if these conditions aren't met, then proceed with the function
+    // find the minimum element with Math.min
+    // find the maximum elmenet with Math.max
+    // remove both elmenets from the array to create a new array
+    // run reduce function on the array and save it a sum variable
+    // return sum variable
 }

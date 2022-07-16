@@ -4,6 +4,7 @@ Write function RemoveExclamationMarks which removes all exclamation marks from a
 
 */
 
+
 function removeExclamationMarks(s) {
-    return '';
+    return s.split("").filter((element) => element != "!").join("")
 }

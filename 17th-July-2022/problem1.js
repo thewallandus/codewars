@@ -8,7 +8,14 @@ For example, when the input is green, output should be yellow.
 
  */
 
+// P: string representing the state of the light
+// R: string representing the state of the next light
+// E: ("green"), "yellow");
+// P: pseudo-code
+
 function updateLight(current) {
-  
-  
+  // conditional that checks color
+  // returns a string with the new color
+    
+
 }

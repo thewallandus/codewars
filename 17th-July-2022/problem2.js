@@ -20,5 +20,5 @@ function bonusTime(salary, bonus) {
     // conditional to check if bonus is true or not
     // if true, then multiply salary by 10
     // if false, then don't and just return the salary as a string
-
+    return bonus ? `£${salary * 10}` : `£${salary}` 
 }

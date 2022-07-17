@@ -16,6 +16,7 @@ For example, when the input is green, output should be yellow.
 function updateLight(current) {
   // conditional that checks color
   // returns a string with the new color
-    
-
+    current === "green" ? "yellow" 
+        : current === "yellow" ? "red"
+        : "green"
 }

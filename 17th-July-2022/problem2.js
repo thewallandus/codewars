@@ -10,7 +10,15 @@ Return the total figure the individual will receive as a string prefixed with "Â
 
 */
 
-function bonusTime(salary, bonus) {
+// P: integer and boolean 
+// R: is a string that's prefixed with Â£
+// E: bonusTime(10000, true)
+// P: pseudo-code
 
+
+function bonusTime(salary, bonus) {
+    // conditional to check if bonus is true or not
+    // if true, then multiply salary by 10
+    // if false, then don't and just return the salary as a string
 
 }

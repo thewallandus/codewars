@@ -17,6 +17,11 @@ The array will always have at least 2 elements1 and all elements will be numbers
 // E: firstNonConsecutive([1,2,3,4,6,7,8]) => 6
 // P: pseudo-code
 
-function firstNonConsecutive (arr) {
-
+function firstNonConsecutive(arr) {
+    for (let i = 1; i < arr.length; i++) {
+        if (arr[i - 1] + 1 !== arr[i]) {
+          return arr[i]
+        }
+    }
+    return null;
 }

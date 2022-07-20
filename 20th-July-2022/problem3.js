@@ -19,6 +19,4 @@ longest(a, a) -> "abcdefghijklmnopqrstuvwxyz"
 // longest(a, b) -> "abcdefklmopqwxy"
 //P: pseudo-code
 
-function longest(s1, s2) {
-    // your code
-}
+const longest = (s1, s2) => [...new Set(s1+s2)].sort().join('')

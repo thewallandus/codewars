@@ -8,10 +8,10 @@ If you can, try writing it in only one line of code.
 
 */
 
-//P
-//R
-//E
-//P
+//P: parameters: 2 integers
+//R: an array of positive integers
+//E: findMultiples(5, 25)
+//P: pseudo-code
 
 function findMultiples(integer, limit) {
     

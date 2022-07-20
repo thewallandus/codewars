@@ -8,7 +8,12 @@ If you can, try writing it in only one line of code.
 
 */
 
+//P
+//R
+//E
+//P
+
 function findMultiples(integer, limit) {
-    //your code here
-  }
+    
+}
   

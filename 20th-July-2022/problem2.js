@@ -16,9 +16,11 @@ If you can, try writing it in only one line of code.
 function findMultiples(int,limit){
     let result = []
     
-    for (let i = int; i<=limit ; i+=int)
+    for (let i = int; i<=limit ; i+=int) {
+
       result.push(i)
       
+    }
     return result
   }
   

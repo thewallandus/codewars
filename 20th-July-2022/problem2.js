@@ -13,7 +13,12 @@ If you can, try writing it in only one line of code.
 //E: findMultiples(5, 25)
 //P: pseudo-code
 
-function findMultiples(integer, limit) {
+function findMultiples(int,limit){
+    let result = []
     
-}
+    for (let i = int; i<=limit ; i+=int)
+      result.push(i)
+      
+    return result
+  }
   

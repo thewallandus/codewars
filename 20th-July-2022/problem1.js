@@ -10,7 +10,10 @@ Write a function that when given a URL as a string, parses out just the domain n
 
 */
 
-
+// P: URL as a string
+// R: just the domain name before .com and after // and returns as a string
+// E: url = "http://github.com/carbonfive/raygun" -> domain name = "github"
+// P: pseudo-code
 
 function domainName(url){
     //your code here

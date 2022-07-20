@@ -12,6 +12,13 @@ longest(a, a) -> "abcdefghijklmnopqrstuvwxyz"
 
 */
 
+//P: two string with only letters from a to z 
+//R: new sorted string || longest possible containing distinct letters each taken only once
+// //E: a = "xyaabbbccccdefww"
+// b = "xxxxyyyyabklmopq"
+// longest(a, b) -> "abcdefklmopqwxy"
+//P: pseudo-code
+
 function longest(s1, s2) {
     // your code
 }

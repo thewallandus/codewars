@@ -1,17 +1,11 @@
-/*
+// I've hit a few bugs in my Java/Type/Coffee-script code recently, and I've traced the problem back to the global isNaN function I was using. I had expected it to be more discerning, but it's returning true for undefined right now.
 
-Let's imagine we have a popular online RPG. A player begins with a score of 0 in class E5. A1 is the highest level a player can achieve.
+// Write a function isReallyNaN that returns true only if passed in an argument that evalutes to NaN, and returns false otherwise.
 
-Now let's say the players wants to rank up to class E4. To do so the player needs to achieve at least 100 points to enter the qualifying stage.
+// Any solution is acceptable!
 
-Write a script that will check to see if the player has achieved at least 100 points in his class. If so, he enters the qualifying stage.
 
-In that case, we return, "Well done! You have advanced to the qualifying stage. Win 2 out of your next 3 games to rank up.".
-
-Otherwise return, False/false (according to the language in use).
-
-*/
-
-function playerRankUp (points) {
-
-}
+const isReallyNaN = (val) => {
+    // return isNaN(val);  // wasn't working as planned :-(
+    return true || false;
+  };

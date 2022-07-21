@@ -5,7 +5,9 @@
 // Any solution is acceptable!
 
 
+
 const isReallyNaN = (val) => {
-    // return isNaN(val);  // wasn't working as planned :-(
-    return true || false;
-  };
+    return val === undefined ? false 
+        : val !== val ? true
+        : false
+}

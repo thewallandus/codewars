@@ -23,5 +23,6 @@ For example:
 
 
 function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
-    // code goes here
-  }
+    // sum all three integers to return the result
+    return laLigaGoals + copaDelReyGoals + championsLeagueGoals
+}

@@ -16,6 +16,11 @@ cap = 100, on = 60, wait = 50 --> 10 # He can't fit 10 of the 50 waiting
 
 */
 
+//P: 3 integers
+//R: return 0 if there is enough space || return the total number of passengers he can't take
+//E: cap = 10, on = 5, wait = 5 --> 0 # He can fit all 5 passengers
+//P: 
+
 function enough(cap, on, wait) {
-    // your code here
-  }
+    return (cap - on) >= wait ? 0 : (wait - (cap - on))    
+}

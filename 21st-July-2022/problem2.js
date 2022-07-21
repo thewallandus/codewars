@@ -16,6 +16,11 @@ For example:
 
 */
 
+//P: three integers
+//R: one integer
+//E: 5, 10, 2  -->  17
+//P
+
 
 function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
     // code goes here

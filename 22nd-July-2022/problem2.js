@@ -11,6 +11,11 @@ Your task is to create a function that returns true if the given number is a Wil
 
 */
 
+// P: parameters: number
+// R: boolean
+// E: amIWilson(5), true
+// P: pseudo-code
+
 function amIWilson(p) {
     // check if prime is Wilson
 }

@@ -15,9 +15,9 @@ Examples
 
 // P: string 
 // R: a sorted string with numbers inside the string depicting the number in the string
-// E: "is2 Thi1s T4est 3a"), "Thi1s is2 3a T4est"
+// E: "is2 Thi1s T4est 3a", "Thi1s is2 3a T4est"
 // P: pseudo-code
 
 function order(words){
-    // ...
+    
 }

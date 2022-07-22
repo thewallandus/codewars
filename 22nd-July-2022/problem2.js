@@ -17,5 +17,6 @@ Your task is to create a function that returns true if the given number is a Wil
 // P: pseudo-code
 
 function amIWilson(p) {
-    // check if prime is Wilson
-}
+    // "The only known Wilson primes are 5, 13 and 563."
+    return p==5 || p==13 || p==563
+  }

@@ -13,7 +13,22 @@ Examples
 
 */
 
+// P: array of integers
+// R: will be an integer
+// E: [0,1,0,1,0] should return 0, because it occurs 3 times (which is odd)
+// P: 
+
 function findOdd(A) {
-    //happy coding!
-    return 0;
+    let count = 0;
+    let arr = A.sort((a, b) => a - b);
+    for (let i = 0; i < arr.length; i++) {
+      for (let j = 0; j < arr.length; j++) {
+        if (arr[i] == arr[j]) {
+          count++;
+        }
+      }
+      if (count % 2 !== 0) {
+        return arr[i];
+      }
+    }
   }

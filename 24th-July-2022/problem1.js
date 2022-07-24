@@ -7,5 +7,21 @@ Note: you will always receive a valid array containing a random assortment of di
 */
 
 function isValidWalk(walk) {
-    //insert brilliant code here
+    let leftRight = 0
+    let northSouth = 0
+    // if north block has been walked add 1 to northSouth
+    // if south block has been walked minus 1 from northSouth
+    // if east block has been walked add 1 to leftRight
+    // if west block has been walked minus 1 to leftRight
+  	walk.forEach((element) => {
+		return element === 'n' ? northSouth++ 
+  			: element === 's' ? northSouth--
+          	: element === 'e' ? leftRight++
+          	: leftRight--
+		})
+  	if (walk.length != 10) {
+      return false
+    } else {
+      return leftRight === 0 && northSouth === 0 ? true : false
+    }
 }

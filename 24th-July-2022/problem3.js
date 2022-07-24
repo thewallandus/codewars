@@ -5,3 +5,7 @@ Now you have to write a function that takes an argument and returns the square o
 */
 
 // Write the "square"-function here
+
+function square(p) {
+    return p ** 2
+}

@@ -16,5 +16,13 @@ None of the arrays will be empty, so you don't have to worry about that!
 // P: pseudo-code
 
 function removeEveryOther(arr){
-    //your code here
-  }
+    let newArr = []
+  	for (let i = 0; i < arr.length; i++) {
+      if (i === 0) {
+        newArr.push(arr[i])
+      } else if (i % 2 === 0) {
+        newArr.push(arr[i])
+      }
+    }
+  	return newArr
+}

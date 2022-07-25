@@ -13,5 +13,6 @@ The answer should be rounded to the nearest 2 decimal places.
 */
 
 function howMuchWater(water, load, clothes){
-    // Insert your brilliant code here
+    return clothes < load ? "Not enough clothes" : clothes > 2 * load ? "Too much clothes" 
+  			: +(water * 1.1 ** (clothes - load)).toFixed(2)
   }

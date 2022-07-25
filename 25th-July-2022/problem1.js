@@ -11,3 +11,7 @@ My washing machine is an old model that can only handle double the amount of loa
 The answer should be rounded to the nearest 2 decimal places.
 
 */
+
+function howMuchWater(water, load, clothes){
+    // Insert your brilliant code here
+  }

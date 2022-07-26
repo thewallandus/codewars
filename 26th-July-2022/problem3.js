@@ -5,6 +5,13 @@
 // Don't worry about numbers, special characters, or non-string types being passed to the function. The string lengths will be from 1 character up to 10 characters, but will never be empty.
 
 function capitalizeWord(word) {
-    word[0].toUpperCase();
-    return word;
+    let newWord = ""
+    for (let i = 0; i < word.length; i++) {
+        if (i === 0) {
+        newWord += word[i].toUpperCase()
+      } else {
+        newWord += word[i]
+      }
+    }
+    return newWord
   }

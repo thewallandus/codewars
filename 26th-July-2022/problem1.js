@@ -10,6 +10,9 @@ Simples!
 
 */
 
+// tail body head
+// => head, body, tail
+
 function fixTheMeerkat(arr) {
-    //your code here 
-   }
+    return arr.reverse()
+}

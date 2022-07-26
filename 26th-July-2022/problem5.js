@@ -53,6 +53,14 @@ You cannot swap the operands. For instance, in the given example you cannot get 
 
 */
 
+// operands: * + ()
+
 function expressionMatter(a, b, c) {
-    return // highest achievable result
+    let output = [];
+    output.push(a *(b + c));
+    output.push(a * b * c);
+    output.push(a + b * c);
+    output.push((a + b) * c);
+    output.push(a+b+c);
+      return Math.max(...output);
   }

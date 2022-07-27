@@ -12,7 +12,12 @@ For example: (Input1, Input2) --> output
 
 */
 
+
 function solution(a, b){
-    // your code here
-  }
+    // find the shorter string
+    // find the longer string
+    // then return short + long + short
+	return a.length > b.length ? b + a + b 
+  			: a + b + a
+}
   

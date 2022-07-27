@@ -17,4 +17,15 @@ As usual, your function/method should be pure, i.e. it should not mutate the ori
 
 String.prototype.toAlternatingCase = function () {
     // Define your method here :)
-  }
+		let str = this.slice(0)
+    console.log(str)
+  	let strArr = str.split('').map(element => {
+      if (element.toUpperCase() === element) {
+        return element.toLowerCase()
+      } else if (element.toLowerCase() === element) {
+        return element.toUpperCase()
+      }
+    }).join("")
+    return strArr
+    console.log(strArr) 
+}

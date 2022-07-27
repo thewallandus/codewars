@@ -14,3 +14,7 @@ Define String.prototype.toAlternatingCase (or a similar function/method such as 
 As usual, your function/method should be pure, i.e. it should not mutate the original string.
 
 */
+
+String.prototype.toAlternatingCase = function () {
+    // Define your method here :)
+  }

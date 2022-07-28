@@ -12,5 +12,15 @@
 //P: pseudo-code
 
 function digital_root(n) {
-    
-}
+    return n < 10 ? n : digital_root(n.toString().split('').map(Number).reduce((a, b) => a + b));
+  }
+  console.log(digital_root(12345678));
+  
+  
+  function digital_root(n) {
+    if (n < 10) {
+      return n;
+    } else {
+      return digital_root(n.toString().split('').map(Number).reduce((a, b) => a + b));
+    }
+  }

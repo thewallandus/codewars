@@ -25,6 +25,25 @@ printer_error(s) => "8/22"
 // printer_error(s) => "0/14"
 //P: pseudo-code
 
+
 function printerError(s) {
-    // your code
+    // need to return a fraction in the form of a string
+  	// numerator: the error rate that is not in the list of allowed characters
+  	// denominator: the total length of the string: s.length
+  	// create an empty string
+  	// create a list of strings that aren't allowed
+  	// create a forloop that loops through s
+  	// create a forloop that loops through disallowed strings
+  	// if both are equal push it to error string
+  	// get the error string length and push it to the numberator
+  	let newStr = ""
+  	const badStr = "nopqrstuvwxyz"
+    for (let i = 0; i < s.length; i++) {
+      for(let j = 0; j < badStr.length; j++) {
+        if (s[i] === badStr[j]) {
+          newStr += s[i]
+        }
+      }
+    }
+  	return `${newStr.length}/${s.length}`
 }

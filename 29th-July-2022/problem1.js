@@ -16,6 +16,12 @@ output = ["Open", "Open", "Senior", "Open", "Open", "Senior"]
 
 */
 
+// P: an array with each element that's an array that has the age and handicap
+// R: a string for every element
+// // E: input =  [[18, 20], [45, 2], [61, 12], [37, 6], [21, 21], [78, 9]]
+// output = ["Open", "Open", "Senior", "Open", "Open", "Senior"]
+// P
+
 function openOrSenior(data){
-    // ...
-  }
+
+}

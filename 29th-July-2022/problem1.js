@@ -22,6 +22,10 @@ output = ["Open", "Open", "Senior", "Open", "Open", "Senior"]
 // output = ["Open", "Open", "Senior", "Open", "Open", "Senior"]
 // P
 
-function openOrSenior(data){
 
+function openOrSenior(data){
+    // loop through the array => element
+ // element[0] => first element
+ // element[1] => second element
+ // if (element[0] >= 55 && element[1] > 7) return "Senior" : "Open"
 }

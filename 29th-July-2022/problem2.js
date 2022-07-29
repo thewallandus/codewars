@@ -19,6 +19,12 @@ printer_error(s) => "8/22"
 
 */
 
+//P: parameters: string
+//R: string that's a number
+//E: s="aaabbbbhaijjjm"
+// printer_error(s) => "0/14"
+//P: pseudo-code
+
 function printerError(s) {
     // your code
 }

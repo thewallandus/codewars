@@ -2,6 +2,8 @@
 
 Create a function finalGrade, which calculates the final grade of a student depending on two parameters: a grade for the exam and a number of completed projects.
 
+// grade for exam and number of completed projects => 2 numbers
+
 This function should take two arguments: exam - grade for exam (from 0 to 100); projects - number of completed projects (from 0 and above);
 
 This function should return a number (final grade). There are four types of final grades:
@@ -22,9 +24,13 @@ Examples(Inputs-->Output):
 
 55, 0 --> 0
 20, 2 --> 0
-*Use Comparison and Logical Operators.
 
 */
+
+// P
+// R
+// E
+// P
 
 function finalGrade (exam, projects) {
     return // final grade

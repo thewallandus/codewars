@@ -27,10 +27,13 @@ Examples(Inputs-->Output):
 
 */
 
-// P
-// R
-// E
-// P
+// P: two numbers
+// R: one number
+// // E: 
+// 100, 12 --> 100
+// 99, 0 --> 100
+// 10, 15 --> 100
+// P: pseudo-code
 
 function finalGrade (exam, projects) {
     return // final grade

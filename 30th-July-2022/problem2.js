@@ -12,6 +12,11 @@ Floats with decimal part non equal to zero are considered UNeven for this kata.
 
 */
 
+//P: number that's an integer
+//R: returns true or false
+//E: testEven(0), true
+//P: pseudo-code
+
 function testEven(n) {
-    
+
 }

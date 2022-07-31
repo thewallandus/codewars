@@ -15,7 +15,10 @@ The second value in the first integer array is 0, since the bus is empty in the 
 
 */
 
-
+//P: an array
+//R: return an integer
+//E: number([[10,0],[3,5],[5,8]]),5
+//P: pseudo-code
 
 var number = function(busStops){
     

@@ -21,5 +21,12 @@ The second value in the first integer array is 0, since the bus is empty in the 
 //P: pseudo-code
 
 var number = function(busStops){
-    
+    // every element in the array has:
+    // first item: number of people get into the bus
+    // second item: number of people get off the bus
+    // num of people left over => sum of every first element of every element
+    // sum of every second element of every element
+    // sum of both
+    // filter our the first element of every element
+    // filter out the second element of every element
 }

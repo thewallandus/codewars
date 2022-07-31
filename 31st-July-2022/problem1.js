@@ -14,6 +14,12 @@ Examples (a, b) --> output (explanation)
 
 */
 
+//P: two integer numbers
+//R: return an integer
+// //E: (1, 0) --> 1 (1 + 0 = 1)
+// (1, 2) --> 3 (1 + 2 = 3)
+//P: pseudo-code
+
 function getSum( a,b ) {
    
 }

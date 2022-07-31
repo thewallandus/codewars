@@ -29,4 +29,12 @@ var number = function(busStops){
     // sum of both
     // filter our the first element of every element
     // filter out the second element of every element
+  	let sumInBus = 0
+    let sumOffBus = 0
+  	for (let i = 0; i < busStops.length; i++) {
+      sumInBus += busStops[i][0]    
+    	sumOffBus += busStops[i][1]
+    }
+  	let result = sumInBus - sumOffBus
+    return result
 }

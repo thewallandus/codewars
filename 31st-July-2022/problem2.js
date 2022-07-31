@@ -1,23 +1,20 @@
 /*
 
-Given an array of ones and zeroes, convert the equivalent binary value to an integer.
+There is a bus moving in the city, and it takes and drop some people in each bus stop.
 
-Eg: [0, 0, 0, 1] is treated as 0001 which is the binary representation of 1.
+You are provided with a list (or array) of integer pairs. Elements of each pair represent number of people get into bus (The first item) and number of people get off the bus (The second item) in a bus stop.
 
-Examples:
+Your task is to return number of people who are still in the bus after the last bus station (after the last array). Even though it is the last bus stop, the bus is not empty and some people are still in the bus, and they are probably sleeping there :D
 
-Testing: [0, 0, 0, 1] ==> 1
-Testing: [0, 0, 1, 0] ==> 2
-Testing: [0, 1, 0, 1] ==> 5
-Testing: [1, 0, 0, 1] ==> 9
-Testing: [0, 0, 1, 0] ==> 2
-Testing: [0, 1, 1, 0] ==> 6
-Testing: [1, 1, 1, 1] ==> 15
-Testing: [1, 0, 1, 1] ==> 11
-However, the arrays can have varying lengths, not just limited to 4.
+Take a look on the test cases.
+
+Please keep in mind that the test cases ensure that the number of people in the bus is always >= 0. So the return integer can't be negative.
+
+The second value in the first integer array is 0, since the bus is empty in the first bus stop.
+
 
 */
 
-const binaryArrayToNumber = arr => {
-    // your code
-  };
+var number = function(busStops){
+    // Good Luck!
+  }

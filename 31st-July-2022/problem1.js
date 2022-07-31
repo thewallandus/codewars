@@ -21,5 +21,12 @@ Examples (a, b) --> output (explanation)
 //P: pseudo-code
 
 function getSum( a,b ) {
-   
+   // of the two numbers find the larger one and the smaller one
+   // set smaller one as the lower variable index
+   // set larger one as the higher variable index
+   // start a for loop
+   // set i = lower variable index
+   // set barrier to the higher variable index
+   // and sum it to the variable that has been set
+   // set a variable sum as 0
 }

@@ -15,6 +15,8 @@ The second value in the first integer array is 0, since the bus is empty in the 
 
 */
 
+
+
 var number = function(busStops){
-    // Good Luck!
-  }
+    
+}

@@ -16,5 +16,5 @@ move(3, 6) should equal 15
 // P:
 
 function move (position, roll) {
-
+    return position + (roll * 2)
 }

@@ -10,10 +10,10 @@ move(3, 6) should equal 15
 
 */
 
+// P: 2 numbers
+// R: one number
+// E: move(3, 6) should equal 15
 // P:
-// R
-// E
-// P
 
 function move (position, roll) {
 

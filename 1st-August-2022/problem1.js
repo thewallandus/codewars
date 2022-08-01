@@ -10,6 +10,11 @@ move(3, 6) should equal 15
 
 */
 
+// P:
+// R
+// E
+// P
+
 function move (position, roll) {
-    
+
 }

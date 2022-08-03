@@ -15,4 +15,4 @@ function checkAlive (health) {
     } else {
       return false
     }
-  }
+}

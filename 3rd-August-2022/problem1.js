@@ -13,6 +13,6 @@ function checkAlive (health) {
     if (health > 0) {
       return true
     } else {
-      return true
+      return false
     }
   }

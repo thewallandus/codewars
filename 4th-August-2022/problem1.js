@@ -4,6 +4,10 @@ Oh no! Timmy hasn't followed instructions very carefully and forgot how to use t
 
 */
 
+// P: group of string
+// R: return a string
+
+
 function buildString(...template){
     return `I like #{template.join(',')}!`;
   }

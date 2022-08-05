@@ -10,7 +10,8 @@ Good luck!
 
 */
 
-function howManyDalmations(numer :
+function howManyDalmations(numer) {
+
   
     var dogs ["Hardly any", "More than a handful!", "Woah that's a lot of dogs!", "101 DALMATIONS!!!"];
     
@@ -18,3 +19,4 @@ function howManyDalmations(numer :
     
   return respond
   
+} 

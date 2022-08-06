@@ -21,9 +21,14 @@ Note: For 4 or more names, the number in "and 2 others" simply increases.
 // ["Jacob", "Alex"]                 -->  "Jacob and Alex like this"
 // ["Max", "John", "Mark"]           -->  "Max, John and Mark like this"
 // ["Alex", "Jacob", "Mark", "Max"]  -->  "Alex, Jacob and 2 others like this"
-// P
+// P:
 
 
 function likes(names) {
-    // TODO
-  }
+    // if empty array, then no one likes this
+    // if array length === 1 => then `${array[0]} likes this`
+    // if array length === 2 => then `${array[0]} and ${array[1]} like this`
+    // if array length === 3 => then `${array[0]}, ${array[1]}, ${array[2]} like this`
+    // if array length > 3 => then `${array[0]}, ${array[1]} and ${array.length - 2} others like this`
+    
+}

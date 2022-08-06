@@ -14,6 +14,16 @@ Note: For 4 or more names, the number in "and 2 others" simply increases.
 
 */
 
+// P => an empty or an array with strings
+// R => a string
+// // E: []                                -->  "no one likes this"
+// ["Peter"]                         -->  "Peter likes this"
+// ["Jacob", "Alex"]                 -->  "Jacob and Alex like this"
+// ["Max", "John", "Mark"]           -->  "Max, John and Mark like this"
+// ["Alex", "Jacob", "Mark", "Max"]  -->  "Alex, Jacob and 2 others like this"
+// P
+
+
 function likes(names) {
     // TODO
   }

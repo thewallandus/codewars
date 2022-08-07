@@ -22,6 +22,11 @@ Enjoy it!!
 
 */
 
+// P: two numbers => start and end integer value
+// R: an array of numbers that fulfill the condition
+// E: sumDigPow(1, 10) == [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+
 function sumDigPow(a, b) {
     // Your code here
   }

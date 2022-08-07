@@ -21,3 +21,8 @@ sumDigPow(90, 100) == []
 Enjoy it!!
 
 */
+
+function sumDigPow(a, b) {
+    // Your code here
+  }
+  

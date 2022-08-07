@@ -26,7 +26,6 @@ Enjoy it!!
 // R: an array of numbers that fulfill the condition
 // E: sumDigPow(1, 10) == [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
-function sumDigPow(a, b) {
     function sumDigPow(a, b) {
         let result = [];
         
@@ -44,6 +43,4 @@ function sumDigPow(a, b) {
         }
         return result;
       }
-      
-}
   

@@ -27,6 +27,23 @@ Enjoy it!!
 // E: sumDigPow(1, 10) == [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 function sumDigPow(a, b) {
-    // Your code here
-  }
+    function sumDigPow(a, b) {
+        let result = [];
+        
+        for (let i = a; i <= b; i++) {
+          let arr = i.toString().split('');
+          let sum = 0;
+          
+          for (let j = 0; j <= arr.length; j++) {
+            sum += Math.pow(arr[j], j + 1);
+            
+            if (sum === i) {
+              result.push(i);
+            }
+          }
+        }
+        return result;
+      }
+      
+}
   

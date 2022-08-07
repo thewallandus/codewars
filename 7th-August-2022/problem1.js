@@ -10,6 +10,14 @@ Example: (Input --> Output)
 
 */
 
+// P: string
+// R: true or false
+// // E: 
+// "Dermatoglyphics" --> true
+// "aba" --> false
+// "moOse" --> false (ignore letter case)
+// P
+
 function isIsogram(str){
     //...
   }

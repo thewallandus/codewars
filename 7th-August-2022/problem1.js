@@ -9,3 +9,7 @@ Example: (Input --> Output)
 "moOse" --> false (ignore letter case)
 
 */
+
+function isIsogram(str){
+    //...
+  }

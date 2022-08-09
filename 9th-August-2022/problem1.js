@@ -1,14 +1,6 @@
 /*
 
-I would like to be able to pass an array with two elements to my swapValues function to swap the values. However it appears that the values aren't changing.
-
-Can you figure out what's wrong here?
+This method, which is supposed to return the result of dividing its first argument by its second, isn't always returning correct values. Fix it.
 
 */
 
-function swapValues() {
-    var args = Array.prototype.slice.call(arguments);
-    var temp = args[0];
-    args[0] = args[1];
-    args[1] = temp;
-}

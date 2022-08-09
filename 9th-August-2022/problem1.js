@@ -4,3 +4,4 @@ This method, which is supposed to return the result of dividing its first argume
 
 */
 
+const solve = (x, y) => x // y

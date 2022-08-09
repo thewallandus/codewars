@@ -9,4 +9,4 @@ This method, which is supposed to return the result of dividing its first argume
 // E: 5 / 9
 // P: 
 
-const solve = (x, y) => x // y
+const solve = (x, y) => x / y

@@ -31,5 +31,6 @@ function maskify(cc) {
     // if no, then just return string as is
     // if yes, then start magic as described below
     // in that case initiate a for loop
-    // set iterator to 4 => that's the 5th charac
+    // set iterator to 4 => that's the 5th character
+    // change them all to #
 }

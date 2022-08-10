@@ -20,6 +20,11 @@ Examples
 
 */
 
+// P: parameters: a string integer or an empty string
+// R: a string with all character except the last 4 as nums => the rest are all hashes
+// E: "4556364607935616" --> "############5616"
+// P: pseudo-code
+
 // return masked string
 function maskify(cc) {
   

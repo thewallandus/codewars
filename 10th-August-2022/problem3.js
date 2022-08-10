@@ -27,7 +27,9 @@ Examples
 
 // return masked string
 function maskify(cc) {
-  // condition to check if string is greater than 4 characters 
-  // if no, then just return string as is
-  // if yes, then start magic as described below
+    // condition to check if string is greater than 4 characters 
+    // if no, then just return string as is
+    // if yes, then start magic as described below
+    // in that case initiate a for loop
+    // set iterator to 4 => that's the 5th charac
 }

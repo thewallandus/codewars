@@ -19,4 +19,6 @@ function oddCount(n){
     // each time the condition i % 2 === 1 is met 
     // push it into the array
     // return the array.length    
+    
+
 }

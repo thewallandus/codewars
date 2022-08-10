@@ -17,6 +17,11 @@ Note: base is a non-negative number, factor is a positive number.
 
 */
 
+// P: base and factor => two integers
+// R: true or false if condition is met
+// E: (checkForFactor(10,2), true)
+// P: pseudo-code
+
 function checkForFactor (base, factor) {
-    // code here
-  }
+    
+}

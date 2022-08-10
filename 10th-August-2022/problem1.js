@@ -10,7 +10,7 @@ Examples (Input -> Output)
 
 // P: number => an integer thta's the end point
 // R: an integer => the number of the total number of odd numbers below 15 => ie, the array length
-// E
+// E: 7  -> 3 (because odd numbers below 7 are [1, 3, 5])
 // P
 
 function oddCount(n){

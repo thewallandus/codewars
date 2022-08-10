@@ -11,8 +11,12 @@ Examples (Input -> Output)
 // P: number => an integer thta's the end point
 // R: an integer => the number of the total number of odd numbers below 15 => ie, the array length
 // E: 7  -> 3 (because odd numbers below 7 are [1, 3, 5])
-// P
+// P => 
 
 function oddCount(n){
-    // your code here
-  }
+    // we need an empty array
+    // a for loop that has the end point as the number input from the user
+    // each time the condition i % 2 === 1 is met 
+    // push it into the array
+    // return the array.length    
+}

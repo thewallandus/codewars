@@ -23,5 +23,7 @@ Note: base is a non-negative number, factor is a positive number.
 // P: pseudo-code
 
 function checkForFactor (base, factor) {
+    // condition to check: is base % factor === 0
+    // then return true else false
     
 }

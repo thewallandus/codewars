@@ -19,6 +19,11 @@ function oddCount(n){
     // each time the condition i % 2 === 1 is met 
     // push it into the array
     // return the array.length    
-    
-
+    let arr = []
+    for (let i = 1; i < n; i++) {
+      if (i % 2 === 1) {
+        arr.push(i)
+      }
+    }
+  	return arr.length
 }

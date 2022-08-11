@@ -16,5 +16,5 @@ If you can, try writing it in one line of code.
 // P
 
 function findDifference(a, b) {
-    //loading...
-  }
+    
+}

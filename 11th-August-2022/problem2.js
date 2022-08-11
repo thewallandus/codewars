@@ -10,6 +10,14 @@ b = 4
 
 */
 
+// P: two integers => the starting and ending ones
+// R: returns an array with start and end value
+// E: 
+// a = 1
+// b = 4
+// --> [1, 2, 3, 4]
+// P: 
+
 function between(a, b) {
     // your code here
   }

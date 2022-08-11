@@ -10,6 +10,11 @@ If you can, try writing it in one line of code.
 
 */
 
+// P: two lists => arrays of integers
+// R: returns the difference between the volume of both
+// E: [2, 2, 3], [5, 4, 1] => 20
+// P
+
 function findDifference(a, b) {
     //loading...
   }

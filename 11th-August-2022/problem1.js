@@ -15,11 +15,15 @@ If you can, try writing it in one line of code.
 // E: [2, 2, 3], [5, 4, 1] => 20
 // P
 
+
 function findDifference(a, b) {
     // find volume of a
     // find volume of b
     // minus volume b by volume a 
     // But first find the bigger number and the smaller number
     // return the difference
-    
+    let volumeA = a[0] * a[1] * a[2]
+    let volumeB = b[0] * b[1] * b[2]
+    let arr = [volumeA, volumeB]
+    return Math.max(...arr) - Math.min(...arr) 
 }

@@ -9,6 +9,10 @@ divisors(13); // should return "13 is prime"
 
 */
 
+// P takes an integer that is n > 1
+// R: an array with integers's divisors (except 1 and the number itself from smallest to largest)
+// if number is prime => return (integer) is prime
+
 function divisors(integer) {
   
 };

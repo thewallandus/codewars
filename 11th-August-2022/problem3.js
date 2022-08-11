@@ -9,6 +9,11 @@ solution(null); // should return []
 
 */
 
+//P: array
+//R: array
+//E: solution([1, 2, 10, 50, 5]); // should return [1,2,5,10,50]
+//P: 
+
 function solution(nums){
   
 }

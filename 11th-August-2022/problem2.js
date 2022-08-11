@@ -26,4 +26,8 @@ function between(a, b) {
     // push all the values between the two to the array
     // return it
     let arr = []
+    for (let i = a; i <= b; i++) {
+        arr.push(i)
+    }
+    return arr
   }

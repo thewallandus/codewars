@@ -20,16 +20,14 @@ function divisors(integer) {
     // so start a for loop and push all the nums it is divisible by and set the start and end value as 1 and the integer
     // finally check with an if else statement if arr.length === 2 else sort it and remove the first and last value and return it
     let arr = [1, integer]
-      for (let i = 2; i < integer; i++) {
+    
+    for (let i = 2; i < integer; i++) {
       if (integer % i === 0) {
         arr.push(i)
       }
     }
-    if (arr.length === 2) {
-         return `${integer} is prime` 
-    } else {
-       return arr.sort((a,b) => a - b).slice(1, -1)
-    }
+    
+    return arr.length === 2 ? integer + 'is prime' : arr.sort((a,b) => a - b).slice(1, -1)
   };
 
 

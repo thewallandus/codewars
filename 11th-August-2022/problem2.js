@@ -25,4 +25,5 @@ function between(a, b) {
     // set end value to b
     // push all the values between the two to the array
     // return it
+    let arr = []
   }

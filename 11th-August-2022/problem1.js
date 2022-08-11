@@ -16,5 +16,10 @@ If you can, try writing it in one line of code.
 // P
 
 function findDifference(a, b) {
+    // find volume of a
+    // find volume of b
+    // minus volume b by volume a 
+    // But first find the bigger number and the smaller number
+    // return the difference
     
 }

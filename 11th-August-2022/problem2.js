@@ -19,5 +19,10 @@ b = 4
 // P: 
 
 function between(a, b) {
-    // your code here
+    // start a for loop
+    // but first create an empty array
+    // set iterator to a
+    // set end value to b
+    // push all the values between the two to the array
+    // return it
   }

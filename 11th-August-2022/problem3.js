@@ -15,5 +15,15 @@ solution(null); // should return []
 //P: 
 
 function solution(nums){
-  
-}
+    // take the array
+    // sort it in ascending order
+    // nums.sort(function(a, b){return a-b})
+    // return nums
+    // check if it's null 
+    // check if length is 0
+    if (nums === null) {
+      return []
+    } else {
+      return nums.sort(function(a, b){return a-b})
+    }
+  }

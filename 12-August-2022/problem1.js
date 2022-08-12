@@ -28,4 +28,20 @@ const sequenceSum = (begin, end, step) => {
     // create conditional to check if begin value is greater than end
     // if yes => throw 0
     // if no => then run your function
+    // create a for loop in case of no
+    // set the initial value as begin
+    // set the end value as end => make it inclusive of end
+    // increment by i + step
+    // create a sum variable that is 0
+    // the for loops runs through the beginning and the end and adds to sum
+    // return sum
+    let sum = 0;
+    if (begin > end) {
+        return 0
+    } else {
+        for (let i = begin; i <= end; i += step) {
+            sum += i
+        }
+    }
+    return sum
 };

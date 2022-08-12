@@ -31,7 +31,7 @@ const sequenceSum = (begin, end, step) => {
     // create a for loop in case of no
     // set the initial value as begin
     // set the end value as end => make it inclusive of end
-    // increment by i + step
+    // increment by i += step
     // create a sum variable that is 0
     // the for loops runs through the beginning and the end and adds to sum
     // return sum

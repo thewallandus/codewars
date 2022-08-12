@@ -18,6 +18,9 @@ Sum of a sequence (this kata)
 
 */
 
+// Three integers => beginning value, end value, step up value
+
+
 const sequenceSum = (begin, end, step) => {
     // May the Force be with you
   };

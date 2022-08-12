@@ -25,12 +25,7 @@ Sum of a sequence (this kata)
 
 
 const sequenceSum = (begin, end, step) => {
-    let sum = 0
-    if (begin > end) {
-        return sum
-    } else {
-        for (let i = begin; i <= end; i + step) {
-            sum += i
-        }
-    }
+    // create conditional to check if begin value is greater than end
+    // if yes => throw 0
+    // if no => then run your function
 };

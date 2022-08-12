@@ -18,7 +18,10 @@ Sum of a sequence (this kata)
 
 */
 
-// Three integers => beginning value, end value, step up value
+// P Three integers => beginning value, end value, step up value
+// R: returns one integer
+// // E: 2,2,2 --> 2
+// 2,6,2 --> 12 (2 + 4 + 6)
 
 
 const sequenceSum = (begin, end, step) => {

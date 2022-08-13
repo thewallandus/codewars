@@ -14,5 +14,12 @@ Test.assertSimilar( capitals('CodEWaRs'), [0,3,4,6] );
 // P
 
 var capitals = function (word) {
-	
+	// create an empty array
+    // anytime there is an UpperCase letter, push the index into the array
+    // but first run a for loop
+    // This for loop's iterator will be the index
+    // if letter === letter.UpperCase then push it
+    // else no need
+    let arr = []
+    
 };

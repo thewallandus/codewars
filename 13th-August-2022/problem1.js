@@ -21,5 +21,8 @@ var capitals = function (word) {
     // if letter === letter.UpperCase then push it
     // else no need
     let arr = []
-    
+    for (let i = 0; i < word.length; i++) {
+        word[i] === word.toUpperCase() ? arr.push(i) : false
+    }
+    return arr
 };

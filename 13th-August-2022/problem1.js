@@ -8,6 +8,11 @@ Test.assertSimilar( capitals('CodEWaRs'), [0,3,4,6] );
 
 */
 
+// P: string
+// R: an array of indexes of the capital letters
+// E: capitals('CodEWaRs'), [0,3,4,6] 
+// P
+
 var capitals = function (word) {
 	// Write your code here
 };

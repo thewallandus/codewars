@@ -22,7 +22,9 @@ var capitals = function (word) {
     // else no need
     let arr = []
     for (let i = 0; i < word.length; i++) {
-        word[i] === word.toUpperCase() ? arr.push(i) : false
+        if (word[i] === word[i].toUpperCase()) {
+          arr.push(i)
+        }
     }
     return arr
 };

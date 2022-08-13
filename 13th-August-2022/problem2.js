@@ -26,6 +26,11 @@ welsh: 'Croeso'
 
 */
 
+// P: a string
+// R: a string => that is the greeting
+// E: greet('english'), 'Welcome'
+// P
+
 function greet(language) {
 	
 }

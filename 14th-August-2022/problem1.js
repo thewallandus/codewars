@@ -24,7 +24,13 @@ Inputs and the expected output will never exceed the signed 32-bit integer limit
 // P
 
 function sumStr(a,b) {
-  // check if either string is falsy
-  // if no then sum the nums of the two strings and return the solution
-
+    // if a === '' consider it as zero and return the other number that's a string
+    // if b === '' consider it as zero and return the other number that's a string
+    // if both are '' then return zero
+    // else do: Number(a) + Number(b)
+    // and turn it all into string
+    return a === '' && b === '' ? 0 
+            : a === '' ? Number(b)
+            : b === '' ? Number(a)
+            : `Number(a) + Number(b)`
 }

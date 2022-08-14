@@ -10,6 +10,9 @@ Example(Input1, Input2 --> Output)
 function divisibleBy(numbers, divisor){
     let arr = []
     for (let i = 0; i < numbers.length; i++) {
-        
+        if (numbers[0] % divisor === 0) {
+            arr.push(numbers[0])
+        }
     }
+    return arr
 }

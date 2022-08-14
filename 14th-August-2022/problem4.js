@@ -8,5 +8,8 @@ Example(Input1, Input2 --> Output)
 */
 
 function divisibleBy(numbers, divisor){
-
+    let arr = []
+    for (let i = 0; i < numbers.length; i++) {
+        
+    }
 }

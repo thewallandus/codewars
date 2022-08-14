@@ -9,7 +9,8 @@ array = [1, 2, 3] and N = 3, but N is outside of the array, so the result is -1.
 
 */
 
+
 function index(array, n){
-    return n > array.length ? -1 
+    return n > array.length - 1  ? -1 
         : array[n] ** n    
 }

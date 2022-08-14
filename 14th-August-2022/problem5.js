@@ -15,5 +15,17 @@ The size will always be positive and will only use whole numbers.
 */
 
 function stringy(size) {
-    // your code here   
-  }
+    let arr = []
+    for (let i = 0; i <= size; i++) {
+        if (i === 0) {
+            arr.push(1)
+        } else if (i === 1) {
+            arr.push(0)
+        } else if (i % 2 === 1) {
+            arr.push(1)
+        } else {
+            arr.push(0)
+        }
+    }       
+    return arr.split()
+}

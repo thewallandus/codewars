@@ -29,8 +29,8 @@ function sumStr(a,b) {
     // if both are '' then return zero
     // else do: Number(a) + Number(b)
     // and turn it all into string
-    return a === '' && b === '' ? 0 
-            : a === '' ? `Number(b)`
-            : b === '' ? `Number(a)`
+    return a === '' && b === '' ? `0` 
+            : a === '' ? `${Number(b)}`
+            : b === '' ? `${Number(a)}`
             : `${Number(a) + Number(b)}`
 }

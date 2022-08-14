@@ -17,6 +17,12 @@ Inputs and the expected output will never exceed the signed 32-bit integer limit
 
 */
 
+// P: two strings that are numbers 
+// R: return the sum of the 2 string nums
+// E: "4",  "5" --> "9"
+// "34", "5" --> "39"
+// P
+
 function sumStr(a,b) {
   
 }

@@ -25,6 +25,6 @@ Inputs and the expected output will never exceed the signed 32-bit integer limit
 
 function sumStr(a,b) {
   // check if either string is falsy
-  // if no then sum the nums of the two string and return the solution
-  
+  // if no then sum the nums of the two strings and return the solution
+
 }

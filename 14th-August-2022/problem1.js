@@ -30,7 +30,7 @@ function sumStr(a,b) {
     // else do: Number(a) + Number(b)
     // and turn it all into string
     return a === '' && b === '' ? 0 
-            : a === '' ? Number(b)
-            : b === '' ? Number(a)
-            : `Number(a) + Number(b)`
+            : a === '' ? `Number(b)`
+            : b === '' ? `Number(a)`
+            : `${Number(a) + Number(b)}`
 }

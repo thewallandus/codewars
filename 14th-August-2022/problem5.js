@@ -16,7 +16,7 @@ The size will always be positive and will only use whole numbers.
 
 function stringy(size) {
     let arr = []
-    for (let i = 0; i <= size; i++) {
+    for (let i = 0; i <= size - 1; i++) {
         if (i === 0) {
             arr.push(1)
         } else if (i === 1) {
@@ -24,7 +24,7 @@ function stringy(size) {
         } else if (i % 2 === 1) {
             arr.push(1)
         } else {
-            arr.push(0)
+            arr.push
         }
     }       
     return arr.split()

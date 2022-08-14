@@ -24,5 +24,7 @@ Inputs and the expected output will never exceed the signed 32-bit integer limit
 // P
 
 function sumStr(a,b) {
+  // check if either string is falsy
+  // if no then sum the nums of the two string and return the solution
   
 }

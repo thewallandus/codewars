@@ -13,6 +13,8 @@ Unfortunately, the code is not working as designed. Please fix the code so that 
 
 */
 
+// P: take a value of arbitrary type
+
 function wrap(value) {
     return
     {

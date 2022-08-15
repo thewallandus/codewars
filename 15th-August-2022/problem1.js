@@ -16,6 +16,7 @@ Unfortunately, the code is not working as designed. Please fix the code so that 
 // P: take a value of arbitrary type
 // R: return an object
 // E: example
+// pseudo-code
 
 function wrap(value) {
     return

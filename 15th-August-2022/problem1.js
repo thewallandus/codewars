@@ -19,5 +19,5 @@ Unfortunately, the code is not working as designed. Please fix the code so that 
 // pseudo-code
 
 function wrap(value) {
-    return
+    return {value}
   }

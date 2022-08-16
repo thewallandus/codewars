@@ -12,5 +12,7 @@ In this kata you need to check the provided array (x) for good ideas 'good' and 
 // P
 
 function well(x){
-    
+    // create a count variable and set it to 0
+    // for every good in x add 1 to count
+    // then check with a conditional if the parameters are met and return the corresponding string
 }

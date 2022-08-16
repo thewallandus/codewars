@@ -8,6 +8,7 @@ In this kata you need to check the provided array (x) for good ideas 'good' and 
 
 // P: an array
 // R: return a string
+// E: example => (well(['bad', 'bad', 'bad']), 'Fail!')
 
 function well(x){
     

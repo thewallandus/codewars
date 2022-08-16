@@ -11,6 +11,7 @@ In this kata you need to check the provided array (x) for good ideas 'good' and 
 // E: example => (well(['bad', 'bad', 'bad']), 'Fail!')
 // P
 
+
 function well(x){
     // create a count variable and set it to 0
     // for every good in x add 1 to count
@@ -19,7 +20,7 @@ function well(x){
     for (let i = 0; i < x.length; i++) {
         x[i] === "good" ? count++ : false
     }
-    return count === 0 ? "Fail" 
-        : count < 2 ? "Publish!"
+    return count === 0 ? "Fail!" 
+        : count <= 2 ? "Publish!"
         : "I smell a series!"
 }

@@ -6,7 +6,7 @@ Write a function that checks if a given string (case insensitive) is a palindrom
 
 // P: string
 // R: true or false boolean
-// E
+// E: (isPalindrome("a"), true))
 // P
 
 function isPalindrome(x) {

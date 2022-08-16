@@ -6,6 +6,8 @@ In this kata you need to check the provided array (x) for good ideas 'good' and 
 
 */
 
-function well(x){
+//P: an array
 
+function well(x){
+    
 }

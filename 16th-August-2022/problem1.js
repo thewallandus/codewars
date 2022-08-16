@@ -15,4 +15,11 @@ function well(x){
     // create a count variable and set it to 0
     // for every good in x add 1 to count
     // then check with a conditional if the parameters are met and return the corresponding string
+    let count = 0;
+    for (let i = 0; i < x.length; i++) {
+        x[i] === "good" ? count++ : false
+    }
+    return count === 0 ? "Fail" 
+        : count < 2 ? "Publish!"
+        : "I smell a series!"
 }

@@ -22,6 +22,11 @@ Examples: (Input --> Output)
 
 */
 
+// P => number => age
+// R
+// E
+// P
+
 function peopleWithAgeDrink(old) {
     return '';
   };

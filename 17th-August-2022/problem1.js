@@ -28,5 +28,5 @@ Examples: (Input --> Output)
 // P
 
 function peopleWithAgeDrink(old) {
-    return '';
-  };
+    
+};

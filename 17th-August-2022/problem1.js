@@ -21,3 +21,7 @@ Examples: (Input --> Output)
 30 --> "drink whisky
 
 */
+
+function peopleWithAgeDrink(old) {
+    return '';
+  };

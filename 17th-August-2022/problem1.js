@@ -24,7 +24,7 @@ Examples: (Input --> Output)
 
 // P => number => age
 // R => string
-// E
+// E => 13 --> "drink toddy"
 // P
 
 function peopleWithAgeDrink(old) {

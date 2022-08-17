@@ -23,7 +23,7 @@ Examples: (Input --> Output)
 */
 
 // P => number => age
-// R
+// R => string
 // E
 // P
 

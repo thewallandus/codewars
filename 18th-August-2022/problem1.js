@@ -20,11 +20,10 @@ The elements in the returned array should be in the same order as in the initial
 // E => ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"]
 // P
 
+
 function gooseFilter (birds) {
     var geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
-    // run a for loop to loop through birds
-    // run a for loop to loop through geese
-    // if geese element and birds element delete it
-    // return it
-    // return an array containing all of the strings in the input array except those that match strings in geese
+      const newarr = birds.filter(item => !geese.includes(item))
+    return newarr
   };
+  

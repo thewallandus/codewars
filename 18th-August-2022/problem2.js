@@ -18,6 +18,11 @@ Examples
 
 */
 
+// P: two strings
+// R: 1, 0, -1
+// E: 'a' and 'g' returns 1
+// P
+
 function sameCase(a, b){
-    return 0;
+    
   }

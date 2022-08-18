@@ -15,6 +15,11 @@ The elements in the returned array should be in the same order as in the initial
 
 */
 
+// P => an array of strings
+// R => return an array of strings
+// E => ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"]
+// P
+
 function gooseFilter (birds) {
     var geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
     

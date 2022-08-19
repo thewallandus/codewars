@@ -25,5 +25,6 @@ text after  = "zzz"
 // P
 
 function contamination(text, char){
-    // Code here ;)
-  }
+    return text.length === 0 ? '' 
+        : char.repeat(text.length)    
+}

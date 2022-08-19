@@ -17,6 +17,11 @@ For JavaScript: return true or false
 
 */
 
+// P => an array of integers
+// R => return true or false
+// E => For example: a = 3, b = 4, c = 5 forms a pythagorean triple, because 52 = 32 + 42
+// P
+
 function isPythagoreanTriple(integers) {
-    // Good luck friends!
+    
   }

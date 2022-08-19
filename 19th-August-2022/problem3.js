@@ -16,6 +16,14 @@ text after  = "zzz"
 
 */
 
+// P => string and character to turn it to
+// R => if length === 0 then return empty string
+// R => else === change all characters with char
+// // E => text before = "abc"
+// character   = "z"
+// text after  = "zzz"
+// P
+
 function contamination(text, char){
     // Code here ;)
   }

@@ -28,6 +28,6 @@ function isPythagoreanTriple(integers) {
     // square of the max integer => sum of the square of the other two 
     // then return true
     // or else return false
-    const ascend = integers.sort((a, b) => return a-b);
+    const ascend = integers.sort((a, b) => a-b);
     return (ascend[2] ** 2) === ((ascend[0] ** 2) + (ascend[1] ** 2)) ? true : false
   }

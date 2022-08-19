@@ -15,5 +15,8 @@ Return Values
 For Python: return True or False
 For JavaScript: return true or false
 
-
 */
+
+function isPythagoreanTriple(integers) {
+    // Good luck friends!
+  }

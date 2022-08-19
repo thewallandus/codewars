@@ -18,4 +18,5 @@ function nameShuffler(str){
     // split it from the space in between
     // reverse it
     // join it
+  	return str.split(" ").reverse().join(" ")
 }

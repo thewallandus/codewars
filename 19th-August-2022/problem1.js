@@ -23,5 +23,9 @@ For JavaScript: return true or false
 // P
 
 function isPythagoreanTriple(integers) {
+    // find the max integer in the array
+    // square of the max integer => sum of the square of the other two 
+    // then return true
+    // or else return false
     
   }

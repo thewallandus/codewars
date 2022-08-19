@@ -8,6 +8,14 @@ Example(Input --> Output)
 
 */
 
+// P => string
+// R => string with the firstname swapped for last name
+// E => "john McClane" --> "McClane john"
+// pseudo-code
+
 function nameShuffler(str){
-    
+    // turn string into array
+    // split it from the space in between
+    // reverse it
+    // join it
 }

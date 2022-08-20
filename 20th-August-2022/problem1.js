@@ -32,7 +32,7 @@ Examples
 function getRealFloor(n) {
     // if num below 13 then -1
     // else - 2
-    return n < 0 ? n  
-        : n >= 13 ? n + 2 
-        : n + 1  
+    return n <= 0 ? n  
+        : n >= 13 ? n - 2 
+        : n - 1  
 }

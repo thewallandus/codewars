@@ -21,6 +21,13 @@ Examples
 
 // P => a number => an integer.
 // R => a number in the so called European system
+// E => examples:
+// 1  =>  0 
+// 0  =>  0
+// 5  =>  4
+// 15  =>  13
+// -3  =>  -3
+
 
 function getRealFloor(n) {
 

@@ -17,7 +17,7 @@ Examples
 15  =>  13
 -3  =>  -3
 
-*/
+**/
 
 function getRealFloor(n) {
 }

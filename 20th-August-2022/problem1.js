@@ -19,5 +19,9 @@ Examples
 
 **/
 
+// P => a number => an integer.
+// R => a number in the so called European system
+
 function getRealFloor(n) {
+
 }

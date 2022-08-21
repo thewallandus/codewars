@@ -14,3 +14,7 @@ For example(Input --> Output):
 "Zach" --> 18
 
 */
+
+function howManyLightsabersDoYouOwn(name) {
+    return
+  }

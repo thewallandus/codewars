@@ -16,5 +16,5 @@ For example(Input --> Output):
 */
 
 function howManyLightsabersDoYouOwn(name) {
-    return
+    return 
   }

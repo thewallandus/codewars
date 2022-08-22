@@ -19,5 +19,5 @@ P. S. You can use \n in string to jump to the next line.
 */
 
 function multiTable(number) {
-    // good luck
-  }
+    
+}

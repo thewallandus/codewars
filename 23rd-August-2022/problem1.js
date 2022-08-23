@@ -31,5 +31,13 @@ Output: "Pls go away and stop eating my sheep"
 function warnTheSheep(queue) {
     // if wolf is the last string in the array === return pls go away and stop eating my sheep
     // if not then return Oi! Sheep number [insert number]! You are about to be eaten by a wolf!
-    // sheep number => find index of wolf and -1 
+    // sheep number => find index of wolf and +1 
+		const index = queue.indexOf("wolf")
+    console.log(index + 1)
+  	if (queue[queue.length - 1] === 'wolf') {
+      return "Pls go away and stop eating my sheep"
+    } else {
+      return `"Oi! Sheep number ${index + 1}! You are about to be eaten by a wolf!"`
+    }
+
 }

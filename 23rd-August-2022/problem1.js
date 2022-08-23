@@ -20,7 +20,7 @@ Output: "Pls go away and stop eating my sheep"
 */
 
 // P => an array of strings that has sheep and wolf strings
-// R => 
+// R => two string conditionals
 // E => 
 // P => 
 

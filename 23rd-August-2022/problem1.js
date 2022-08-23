@@ -21,7 +21,11 @@ Output: "Pls go away and stop eating my sheep"
 
 // P => an array of strings that has sheep and wolf strings
 // R => two string conditionals
-// E => 
+// E => Input: ["sheep", "sheep", "sheep", "wolf", "sheep"]
+// Output: "Oi! Sheep number 1! You are about to be eaten by a wolf!"
+
+// Input: ["sheep", "sheep", "wolf"]
+// Output: "Pls go away and stop eating my sheep"
 // P => 
 
 function warnTheSheep(queue) {

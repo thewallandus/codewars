@@ -13,5 +13,7 @@
 // Pseudo-code => 
 
 function getChar(c){
-    // ...
+    
   }
+
+  // irrelevant problem

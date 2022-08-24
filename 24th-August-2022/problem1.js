@@ -9,6 +9,8 @@
 
 // P: a number
 // R: a string character
+// E: // get_char(65) // should return: // 'A'
+
 
 function getChar(c){
     // ...

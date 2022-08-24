@@ -7,3 +7,6 @@
 
 // 'A'
 
+function getChar(c){
+    // ...
+  }

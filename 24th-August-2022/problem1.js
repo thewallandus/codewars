@@ -7,6 +7,9 @@
 
 // 'A'
 
+// P: a number
+// R: a string character
+
 function getChar(c){
     // ...
   }

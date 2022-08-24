@@ -11,4 +11,10 @@ Note: The parameter is optional. So you have to give it a default value.
 
 */
 
-const arr = N => [ /* the numbers 0 to N-1 */ ];
+const arr = N => {
+    let a = []
+    for (let i = 0; i < N; i++) {
+            a.push(i)
+        }
+    return a 
+}

@@ -20,11 +20,5 @@ Examples:
 
 
 function hello(name) {
-    if (name) {
-        const newName = name.toLowerCase().split("").join("")
-        const newName1 = newName[0].toUpperCase() + newName.substr(1)
-        return `Hello, ${newName1}!`
-    } else {
-        return `Hello, World!`
-    }
+    return `Hello, ${name ? (name[0].toUpperCase + name.splice(1).toLowerCase()) : World}!`
 }

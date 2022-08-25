@@ -13,6 +13,11 @@ Examples:
 
 */
 
+// P => a string
+// R => a string
+// E
+// P
+
 function hello(name) {
     return '';
   }

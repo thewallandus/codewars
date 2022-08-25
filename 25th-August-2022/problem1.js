@@ -16,8 +16,8 @@ Examples:
 // P => a string
 // R => a string
 // E => With `name` = "john"  => return "Hello, John!"
-// P
+// P => 
 
 function hello(name) {
-    return '';
-  }
+    
+}

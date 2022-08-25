@@ -18,6 +18,9 @@ Examples:
 // E => With `name` = "john"  => return "Hello, John!"
 // P => 
 
+
 function hello(name) {
-    
-}
+    const newName = name.toLowerCase().split("").join("")
+    const newName1 = newName[0].toUpperCase() + newName.substr(1)
+    return `Hello ${newName1}`
+  }

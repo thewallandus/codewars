@@ -22,5 +22,11 @@ Happy coding!
 // P => pseudo-code
 
 function mergeArrays(arr1, arr2) {
-  
+    // merge both arrays into one larger array
+    // but first sort them in ascending order
+    // then concat them and store in a variable
+    // run a for loop
+    // if the element is equal to the element after it remove it
+    // if not move on => do nothing
+    // return it
 }

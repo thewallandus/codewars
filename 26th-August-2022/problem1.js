@@ -16,6 +16,11 @@ Happy coding!
 
 */
 
+// P => two arrays with integers
+// R => return one single larger array
+// E => * [1, 2, 3, 4, 5], [6, 7, 8, 9, 10] -> [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+// P => pseudo-code
+
 function mergeArrays(arr1, arr2) {
   
 }

@@ -13,5 +13,5 @@ The input will not be 0.
 */
 
 function nthEven(n){
-    // your code here
-  }
+    
+}

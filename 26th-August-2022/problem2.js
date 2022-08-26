@@ -39,3 +39,5 @@ When you have finished the work, click "Run Tests" to see if your code is workin
 In the end, click "Submit" to submit your code pass this kata.
 
 */
+
+//refer to the example and write your first JS function

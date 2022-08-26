@@ -21,6 +21,7 @@ Happy coding!
 // E => * [1, 2, 3, 4, 5], [6, 7, 8, 9, 10] -> [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 // P => pseudo-code
 
+
 function mergeArrays(arr1, arr2) {
     // merge both arrays into one larger array
     // but first sort them in ascending order
@@ -29,4 +30,11 @@ function mergeArrays(arr1, arr2) {
     // if the element is equal to the element after it remove it
     // if not move on => do nothing
     // return it
+  	let arr = (arr1.sort((a, b) => a - b).concat(arr2.sort((a, b) => a - b))).sort((a,b) => a - b)
+    for (let i = 0; i < arr.length; i++) {
+      if (arr[i] === arr[i + 1]) {
+        arr.splice(i, 1)
+      }
+    }
+  	return arr
 }

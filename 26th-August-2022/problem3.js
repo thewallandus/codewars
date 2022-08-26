@@ -12,6 +12,8 @@ y is not considered a vowel for this kata
 
 */
 
+
 function shortcut (string) {
-    return '';
-  }
+	const noVowels = string.replace(/[aeiou]/gi, '');
+  return noVowels
+}

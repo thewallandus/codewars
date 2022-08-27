@@ -11,5 +11,7 @@ All inputs will be integers. Please return an integer. Round down.
 */
 
 function dutyFree(normPrice, discount, hol){
-  
+    
 }
+
+// https://www.codewars.com/kata/57e92e91b63b6cbac20001e5/train/javascript

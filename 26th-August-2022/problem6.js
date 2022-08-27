@@ -10,8 +10,15 @@ All inputs will be integers. Please return an integer. Round down.
 
 */
 
-function dutyFree(normPrice, discount, hol){
-    
-}
+// P: three integers
+// R: return an integer
+// // E: example => 
+// For example, if a bottle cost £10 normally and the discount in duty free was 10%, you would save £1 per bottle. If your holiday cost £500, the answer you should return would be 500.
 
-// https://www.codewars.com/kata/57e92e91b63b6cbac20001e5/train/javascript
+// if cost is norm generally && discount was discount in the parameter then total discount will be hol/(discount / 100 * normPrice) 
+
+
+function dutyFree(normPrice, discount, hol){
+    const howMany = Math.floor(hol / (normPrice * (discount / 100)))
+   return howMany
+}

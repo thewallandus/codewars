@@ -16,5 +16,6 @@ Your goal in this kata is to create complete the mouth_size method this method t
 // P => pseudo-code
 
 function mouthSize(animal) {
-    
-  }
+    // if alligator => buy small
+    // else return wide    
+}

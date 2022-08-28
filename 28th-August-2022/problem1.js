@@ -10,6 +10,11 @@ Your goal in this kata is to create complete the mouth_size method this method t
 
 */
 
+// P => parameters => string
+// R => return a string
+// E => mouthSize("toucan"),"wide"
+// P => 
+
 function mouthSize(animal) {
-    // code here
+    
   }

@@ -6,5 +6,5 @@
 // C = 12 * (16 ^ 1) = 192
 
 function hexToDec(hexString){
-    //your code here
-  }
+    
+}

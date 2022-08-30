@@ -5,6 +5,11 @@
 
 */
 
+// P => a string character + an array
+// R => an array
+// E => 
+// P
+
 const flip=(d, a)=>{
     //TODO
     

@@ -7,7 +7,7 @@
 
 // P => a string character + an array
 // R => an array
-// E => 
+// E => 'R', [3, 2, 1, 2] ->  [1, 2, 2, 3]
 // P
 
 const flip=(d, a)=>{

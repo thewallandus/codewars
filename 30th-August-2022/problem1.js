@@ -11,6 +11,7 @@
 // P
 
 const flip=(d, a)=>{
-    //TODO
-    
-  }
+    // if R => then right => in which case the array is sorted from left to right 
+    // if L => then left => in which case the array is sorted from right to left
+    return d === "R" ? a.sort((a, b) => a - b) : a.sort((a, b) =>  b - a)     
+}

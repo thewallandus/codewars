@@ -13,10 +13,12 @@ Examples(Input ==> Output)
 
 */
 
-function isPalindrome(x) {
+function isPalindrome(line) {
+    // if number then turn it into string first
     // turn string into lowercase
     // split then reverse it and see if it's equal to the orinal string in lower case
     // if yes => then true
     // if no => then false
-    return x.toLowerCase() === x.toLowerCase().split('').reverse().join('') ? true : false
+    const lineNew = `${line}`
+    return lineNew.toString().toLowerCase() === lineNew.toLowerCase().split('').reverse().join('') ? true : false
 }

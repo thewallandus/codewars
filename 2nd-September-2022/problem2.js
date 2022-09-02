@@ -23,8 +23,9 @@ result - division by zero (refer to the specifications on how to handle this in 
 
 */
 
+
 function remainder(n, m){
     // Divide the larger argument by the smaller argument and return the remainder
     let arr = [n, m]
-    return Math.max(arr) % Math.min(arr)
+    return Math.max(...arr) % Math.min(...arr)
   }

@@ -9,3 +9,7 @@ _if(true, function(){console.log("True")}, function(){console.log("false")})
 // Logs 'True' to the console.
 
 */
+
+function _if(bool, func1, func2) {
+    // ...
+  }

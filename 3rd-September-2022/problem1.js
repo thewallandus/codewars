@@ -15,6 +15,11 @@ In the end, click "Submit" to submit your code pass this kata.
 
 */
 
+// P => n which is an integer
+// R => return integer
+// E => saleHotdogs(1),100
+// P 
+
 function saleHotdogs(n){
-    return ?
+    return n < 5 
   }

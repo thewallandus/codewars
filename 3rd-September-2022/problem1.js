@@ -21,5 +21,6 @@ In the end, click "Submit" to submit your code pass this kata.
 // P 
 
 function saleHotdogs(n){
-    return n < 5 
+    return n >= 10 ? 90 * n
+        : n >= 5 && n < 10 ? 95 * n : 100 * n
   }

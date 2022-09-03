@@ -9,5 +9,5 @@ Good luck :)
 */
 
 function unusualFive() {
-    //
-  }
+    return 'ludom'.length
+}

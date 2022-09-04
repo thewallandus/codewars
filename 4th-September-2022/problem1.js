@@ -12,5 +12,6 @@ Examples:
 */
 
 function typeValidation(variable, type) {
-    // Your code should be here ;) 
+    const typeCheck = typeof variable
+    return typeCheck === type ? true : false
   }

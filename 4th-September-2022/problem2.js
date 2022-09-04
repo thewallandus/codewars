@@ -45,3 +45,8 @@ I hope that this challenge will be useful for all the coding lovers.
 Special Acknowledgements for two Codewarriors: Unnamed and macambira for their observations done in the beta phase.
 
 */
+
+function maxIntChain(n) {
+    // your code here
+    return // an integer
+  }

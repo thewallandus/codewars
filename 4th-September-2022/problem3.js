@@ -8,6 +8,12 @@ If input data is invalid you should return 0 (as in no breaks are needed if we d
 
 */
 
+// P => two integers
+// R => integer => number of breaks needed
+// E => breakChocolate(5, 5) , 24
+// breakChocolate(1, 1) , 0
+// P => 
+
 function breakChocolate(n,m) {
-    return 0;
-  }
+    
+}

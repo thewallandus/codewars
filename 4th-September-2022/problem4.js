@@ -12,7 +12,11 @@ Examples
 
 */
 
-// 
+// p => an odd length array of integers => all are the same except for a single number
+// r => single different number as an integer
+// e = > [1, 1, 2] ==> 2
+// [17, 17, 3, 17, 17, 17, 17] ==> 3
+// p
 
 function stray(numbers) {
     

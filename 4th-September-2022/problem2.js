@@ -2,6 +2,8 @@
 
 We have a positive integer N, N > 0.
 
+=> N is greater than 0.
+
 We have an special integer N1, N1 > N, such that N1 = c . d and N = c + d with the constrain that c ≠ d
 
 Let´s see an example:

@@ -5,7 +5,7 @@ This function should return an object, but it's not doing what's intended. What'
 */
 
 function mystery() {
-    var results =
+    return results =
       {sanity: 'Hello'};
     
   }

@@ -13,6 +13,7 @@ Examples: (Input --> Output)
 
 */
 
-var number=function(array){
-    //your awesome code here
-  }
+var number = function(array){
+    return array.length === 0 ? []
+        : array.map((item, index) => `${index + 1}: ${item}`)
+}

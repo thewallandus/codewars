@@ -21,5 +21,9 @@ Example
 // P => 
 
 function duplicateCount(text){
-    //...
+    // start a variable count set to zero
+    // start a for loop to loop through the text
+    // start a for loop to loop through the rest of the text
+    // if the first for loop character matches the second then count++
+    // return the variable count
 }

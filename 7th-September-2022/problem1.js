@@ -14,6 +14,12 @@ Example
 
 */
 
+// P => a string
+// R => an integer => things that occur more than once in the input string
+// E => "Indivisibilities" -> 2 # 'i' occurs seven times and 's' occurs twice
+// "aA11" -> 2 # 'a' and '1'
+// P => 
+
 function duplicateCount(text){
     //...
 }

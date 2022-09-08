@@ -7,5 +7,5 @@ All values in the array will be integers. Return the good values in the order th
 */
 
 function noOdds( values ){
-    // Return all non-odd values
+    values.filter(item => item % 2 === 0)
   }

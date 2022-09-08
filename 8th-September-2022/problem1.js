@@ -17,5 +17,15 @@ output: number as a string
 */
 
 function mxdiflg(a1, a2) {
-    // your code
+    const sum = []
+    if ( a1.length === 0 || a2.length === 0 ) {
+        return -1 
+    } else {
+        for (let i = 0; i < a1.length; i++) {
+            for (let j = 0; j < a2.length; j++ ) {
+                sum.push(Math.abs(a1[i].length - a2[j].length))
+            }
+        }
+    }
+    return Math.max(...sum)
 }

@@ -20,7 +20,9 @@ Even-odd disparity
 // R => an array of two strings
 // E => capitalize("abcdef") = ['AbCdEf', 'aBcDeF']
 
-
+// create two empty strings
+// in the first, push for loop that makes upper case for even
+// in the second, push for loop that makes upper case for odd
 
 function capitalize(s){
     let str1 = ''

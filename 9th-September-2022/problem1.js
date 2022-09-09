@@ -21,6 +21,23 @@ Even-odd disparity
 // E => capitalize("abcdef") = ['AbCdEf', 'aBcDeF']
 
 
+
 function capitalize(s){
-    return [];
-  };
+    let str1 = ''
+    let str2 = ''
+    for (let i = 0; i < s.length; i++) {
+        if (i % 2 === 0) {
+          str1 += s[i].toUpperCase() 
+        } else {
+          str1 += s[i]
+        }
+    }
+    for (let j = 0; j < s.length; j++) {
+        if (j % 2 === 1) {
+          str2 += s[j].toUpperCase() 
+        } else {
+          str2 += s[j]
+        }
+    }
+    return [str1, str2]
+};

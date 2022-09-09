@@ -16,6 +16,9 @@ Even-odd disparity
 
 */
 
+// P => string
+// R => an array of two strings
+// E => capitalize("abcdef") = ['AbCdEf', 'aBcDeF']
 
 
 function capitalize(s){

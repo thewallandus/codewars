@@ -31,5 +31,6 @@ For More Enjoyable Katas
 // whatever is left behind we will join it => parseInt
 
 function minValue(values){
-    
-}
+    const take = values.sort((a, b) => a - b)
+    return parseInt([...new Set(take)].join(''));
+  }

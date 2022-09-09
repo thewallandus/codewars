@@ -14,5 +14,12 @@ Content is in fact not necessary in the body of the function "evaporator", you c
 */
 
 function evaporator(content, evap_per_day, threshold){ 
-    return -1;
-  }
+    var days = 0;
+    var gas = 100;
+      while(gas >= threshold){
+        gas -= gas * evap_per_day / 100;
+        days++;
+    }
+      return days;
+    }
+    

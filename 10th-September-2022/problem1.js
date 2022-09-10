@@ -31,5 +31,19 @@ function nbDig(n, d) {
     // push all values up to n squared
     // then check if any of the elements d
     // if yes, then create another array of these elements
-    // return it
+    // then check how many times d occurs in the string after converting it into a string
+    // return the count
+    let arr = []
+    const newd = `${d}`
+    for (let i = 0; i <= n; i++) {
+      arr.push(`${i ** 2}`)
+    }
+    const matches = arr.filter(element => {
+  	if (element.includes(`${d}`)) {
+    	return true;
+  	}
+	});
+    const str = matches.join("")
+    const count = str.split(newd).length - 1
+    return count
 }

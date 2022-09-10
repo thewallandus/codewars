@@ -20,3 +20,11 @@ So there are 11 digits 1 for the squares of numbers between 0 and 25.
 Note that 121 has twice the digit 1.
 
 */
+
+// P => two integers n and d 
+// R => one integer which is the length of the number of numbers that has d
+// E => nb_dig(25, 1) returns 11
+
+function nbDig(n, d) {
+    // 
+}

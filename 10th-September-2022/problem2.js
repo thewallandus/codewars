@@ -12,4 +12,10 @@ Let's assume that all numbers in the input will be integer values.
 */
 
 function sumDigits(number) {
+    let sum = 0
+    const num = `${Math.abs(number)}`
+    for (let i = 0; i < num.length; i++) {
+        sum += parseInt(num[i])
+    }
+  	return sum
 }

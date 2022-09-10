@@ -26,5 +26,10 @@ Note that 121 has twice the digit 1.
 // E => nb_dig(25, 1) returns 11
 
 function nbDig(n, d) {
-    // 
+    // create an empty array
+    // start a for loop
+    // push all values up to n squared
+    // then check if any of the elements d
+    // if yes, then create another array of these elements
+    // return it
 }

@@ -7,12 +7,12 @@ remove("Hi!") == "Hi"
 remove("Hi!!!") == "Hi!!"
 remove("!Hi") == "!Hi"
 remove("!Hi!") == "!Hi"
-remove("Hi! Hi!") == "Hi! Hi"
+ == "Hi! Hi"
 remove("Hi") == "Hi"
 
 */
 
+
 function remove (string) {
-    //coding and coding....
-    return '';
-  }
+    return string[string.length - 1] === "!" ? string.slice(0, (string.length - 1)) : string    
+}

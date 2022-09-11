@@ -18,5 +18,5 @@ sleigh.authenticate("jhoffner", "CodeWars"); // Nope, even Jake is
 function Sleigh() {}
 
 Sleigh.prototype.authenticate = function(name, password) {
-  // TODO
+    return name === "Santa Claus" && password === "Ho Ho Ho!" ? true : false
 };

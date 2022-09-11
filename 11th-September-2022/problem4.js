@@ -5,5 +5,6 @@ Create a combat function that takes the player's current health and the amount o
 */
 
 function combat(health, damage) {
-    // Write your code here
+    const currHealth = health - damage;
+    return currHealth < 0 ? 0 : currHealth
   }

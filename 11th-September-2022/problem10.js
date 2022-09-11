@@ -11,6 +11,5 @@ If the sperm contains the X chromosome, return "Congratulations! You're going to
 */
 
 function chromosomeCheck(sperm) {
-    const gender = sperm === "XY" ? "son" : "daughter"
-    return `Congratulations! You're going to have a ${gender}.`
+    return `Congratulations! You're going to have a ${sperm === "XY" ? "son" : "daughter"}.`
 }

@@ -7,5 +7,5 @@ All inputs will be valid.
 */
 
 function digits(n) {
-    let count = 0
+    return n.toString().length    
 }

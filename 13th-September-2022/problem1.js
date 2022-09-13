@@ -17,7 +17,10 @@ I have also created other katas. Take a look if you enjoyed this kata!
 
 */
 
-function dontGiveMeFive(start, end)
-{
-  return 0;
+// P => two integers => start and end
+// R => an integer which is the length of the array
+// E => 4,17 -> 4,6,7,8,9,10,11,12,13,14,16,17 -> Result 12
+
+function dontGiveMeFive(start, end) {
+    
 }

@@ -22,5 +22,13 @@ I have also created other katas. Take a look if you enjoyed this kata!
 // E => 4,17 -> 4,6,7,8,9,10,11,12,13,14,16,17 -> Result 12
 
 function dontGiveMeFive(start, end) {
-    
+    // create an empty array
+    // create a for loop that pushes numbers inside the array => inclusive of first and last
+    // count the length of the array
+    // if the number has five in it, then exclude it
+    const arr = []
+    for (let i = start; i <=end; i++) {
+        arr.push(i)
+    }
+  	return arr.filter(item => !item.toString().includes(5)).length
 }

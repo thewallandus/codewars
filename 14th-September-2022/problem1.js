@@ -17,5 +17,12 @@ ENJOY CODING :)
 */
 
 function sumOfMinimums(arr) {
-    // your code here
+    // create a new array
+    // start a for loop and push the math.min of the array element that is passed in as a spread operator
+    // reduce it and return it
+    const arrNew = []
+    for (let i = 0; i < arr.length; i++) {
+        arrNew.push(Math.min(...arr[i]))
+    }
+  	return arrNew.reduce((value, acc) => value + acc)
   }

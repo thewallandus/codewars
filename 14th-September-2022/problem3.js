@@ -7,5 +7,16 @@ The inputs x and y are always greater or equal to 1, so the greatest common divi
 */
 
 function mygcd(x,y){
-    //your code here
-  }
+    const xArr = []
+    const yArr = []
+    for (let i = 1; i <= x; i++) {
+        if (x % i === 0) {
+            xArr.push(i)
+        }
+    }
+    for (let j = 1; j <= x; j++) {
+        if (y % j === 0) {
+            yArr.push(j)
+        }
+    }
+}

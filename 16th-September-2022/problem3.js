@@ -18,5 +18,8 @@ Some random tests might fail due to a bug in the JavaScript implementation. Simp
 */
 
 function predictAge(age1,age2,age3,age4,age5,age6,age7,age8){
-    // your code
+    const arr = [age1,age2,age3,age4,age5,age6,age7,age8]
+    return Math.floor((Math.sqrt(arr.map(item => {
+        return item * item
+    }).reduce((curr, acc) => curr + acc)) / 2))
   }

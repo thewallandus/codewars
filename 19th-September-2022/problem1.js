@@ -14,10 +14,10 @@ Good Luck!
 
 // two parameters: year of birth and the year to count years in relation to
 
-function  calculateAge() {
-  
-    // enter your code here.
-    
+function  calculateAge(born, next) {
+    return born > next ? `You will be born in ${born - next} ${born - next === 1 ? "year" : "years"}.`
+        : born === next ? `You were born this very year!`
+        : `You are ${next - born} ${next - born === 1 ? "year" : "years"} old.`
     }
     
     

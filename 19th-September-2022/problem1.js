@@ -12,6 +12,8 @@ Good Luck!
 
 */
 
+// two parameters: year of birth and the year to count years in relation to
+
 function  calculateAge() {
   
     // enter your code here.

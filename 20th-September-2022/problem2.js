@@ -8,3 +8,4 @@ Add the value "codewars" to the array websites/Websites 1,000 times.
 
 // add the value "codewars" to the websites array 1,000 times
 var websites = []
+websites = new Array(1000).fill("codewars")

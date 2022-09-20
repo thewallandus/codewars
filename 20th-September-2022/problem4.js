@@ -14,6 +14,10 @@ Note: You can expect all of the inputs to be the same length.
 // examples => E.g. Input: "aa", "bb" , "cc" => Output: "abcabc"
 // pseudo-code
 
-function tripleTrouble(one, two, three){
-
-}
+function tripleTrouble(one, two, three) {
+    var result = "";
+    for (let i = 0; i < one.length; i++) {
+      result += one.charAt(i) + two.charAt(i) + three.charAt(i);
+    }
+    return result;
+  }

@@ -9,6 +9,11 @@ Note: You can expect all of the inputs to be the same length.
 
 */
 
+// parameters => 3 strings
+// return => one string
+// examples => E.g. Input: "aa", "bb" , "cc" => Output: "abcabc"
+// pseudo-code
+
 function tripleTrouble(one, two, three){
-    //Solution
-   }
+
+}

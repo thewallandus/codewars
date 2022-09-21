@@ -17,7 +17,21 @@ Examples:(Input --> Output)
 
 */
 
+// Formula: 1 + (1 / 4) + (1 / 4+3) + (1 / 4 + 6) + (1 / 4 + 9)
+// n => number of times
+
+
 function SeriesSum(n)
 {
-  // Happy Coding ^_^
+    let sum = 0
+    let denom = 1
+    for (let i = 1; i <= n; i++) {
+      if (i === 1) {
+            sum += 1
+        } else {
+            sum += 1 / (denom += 3)
+        }
+    }
+    return n === 0 ? "0.00" 
+            : sum.toFixed(2)
 }

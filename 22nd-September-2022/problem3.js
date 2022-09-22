@@ -13,5 +13,17 @@ If the array is empty or the array has only one element the result should be 0 (
 */
 
 function sumOfDifferences(arr) {
-    
+    let sum = 0
+    const sortArr = arr.sort((a, b) => b - a) 
+    if (arr.length === 0 || arr === []) {
+      return 0
+    } else {   	
+    	for (let i = 0; i < sortArr.length; i++) {
+        if (i === sortArr.length - 1) {
+            return sum
+        } else {
+            sum += sortArr[i] - sortArr[i+1]
+        }
+    }  
+  }
 }

@@ -13,4 +13,5 @@ If the array is empty or the array has only one element the result should be 0 (
 */
 
 function sumOfDifferences(arr) {
+    
 }

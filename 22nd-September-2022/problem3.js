@@ -27,3 +27,4 @@ function sumOfDifferences(arr) {
     }  
   }
 }
+

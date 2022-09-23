@@ -12,5 +12,7 @@ Some cases:
 */
 
 function multipleOfIndex(array) {
-    // good luck
-  }
+    return array.filter((item, index) => {
+        return item % index === 0
+    })    
+}

@@ -7,5 +7,11 @@ You will be given an array of all the family members' ages, in any order. The ag
 */
 
 function differenceInAges(ages){
-
+    // find the max age
+    // find the min age
+    // return the array
+    // with youngest age
+    // oldest age
+    // difference between the youngest and oldest age
+    return [(Math.min(...ages)), (Math.max(...ages)), ((Math.max(...ages)) - Math.min(...ages))]
 }

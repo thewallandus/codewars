@@ -18,5 +18,5 @@ For an example list of 1, 3, 5, 7
 */
 
 var findAverage = function (nums) {
-    // Code here
-  }
+    return nums.reduce((item, acc) => item + acc) / nums.length    
+}

@@ -11,5 +11,5 @@ Get your timer out. Are you ready? Ready, get set, GO!!!
 */
 
 function arrayMadness(a, b) {
-    // Ready, get set, GO!!!
+    
   }

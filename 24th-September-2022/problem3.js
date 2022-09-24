@@ -11,5 +11,7 @@ Get your timer out. Are you ready? Ready, get set, GO!!!
 */
 
 function arrayMadness(a, b) {
-    
+    const aSquare = a.map(item => item ** 2)
+    const bCubes = b.map(item => item ** 3)
+    return aSquare.reduce((item, acc) => item + acc) > bCubes.reduce((item, acc) => item + acc) ? true : false
   }

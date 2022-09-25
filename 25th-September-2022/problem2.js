@@ -11,5 +11,6 @@ Return value as boolean values, true for the string to contains "English", false
 */
 
 function spEng(sentence){
-    //write your code here
-    }
+    let pattern = /english/i
+    return sentence.match(pattern) ? true : false
+}

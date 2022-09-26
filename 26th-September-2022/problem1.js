@@ -28,3 +28,27 @@ When you have finished the work, click "Run Tests" to see if your code is workin
 In the end, click "Submit" to submit your code pass this kata.
 
 */
+
+function getLength(arr){
+    //return length of arr
+    return ?
+  }
+  function getFirst(arr){
+    //return the first element of arr
+    return ?
+  }
+  function getLast(arr){
+    //return the last element of arr
+    return ?
+  }
+  function pushElement(arr){
+    var el=1;
+    //push el to arr
+    
+    return arr
+  }
+  function popElement(arr){
+    //pop an element from arr
+    
+    return ?
+  }

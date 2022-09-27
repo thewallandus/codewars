@@ -14,9 +14,5 @@ Otherwise returns "Wrong, please enter a number between 1 and 7"
 */
 
 function whatday(num) { 
-
-    // put your code here
-  
-  
-  
-  }
+    
+}

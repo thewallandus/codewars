@@ -1,21 +1,22 @@
 /*
 
-Given a string s, write a method (function) that will return true if its a valid single integer or floating number or false if its not.
+Complete the function which returns the weekday according to the input number:
 
-Valid examples, should return true:
-
-isDigit("3")
-isDigit("  3  ")
-isDigit("-3.23")
-should return false:
-
-isDigit("3-4")
-isDigit("  3   5")
-isDigit("3 5")
-isDigit("zero")
+1 returns "Sunday"
+2 returns "Monday"
+3 returns "Tuesday"
+4 returns "Wednesday"
+5 returns "Thursday"
+6 returns "Friday"
+7 returns "Saturday"
+Otherwise returns "Wrong, please enter a number between 1 and 7"
 
 */
 
-function isDigit(s) {
-    //your code
+function whatday(num) { 
+
+    // put your code here
+  
+  
+  
   }

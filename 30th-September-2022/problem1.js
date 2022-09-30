@@ -19,5 +19,24 @@ Because you're a nice person, you always round up the tip, regardless of the ser
 */
 
 function calculateTip(amount, rating) {
-
+    const ratingAnyCase = rating.toLowerCase()
+    switch(ratingAnyCase) {
+        case "terrible":
+            return 0;
+        break;
+        case "poor":
+            return Math.ceil(amount * 5/100);
+        break;
+        case "good":
+            return Math.ceil(amount * 10/100);
+        break;
+        case "great":
+            return Math.ceil(amount * 15/100);
+        break;
+        case "excellent":
+            return Math.ceil(amount * 20/100);
+        break;
+        default:
+            return "Rating not recognised";
+    } 
 }

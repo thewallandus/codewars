@@ -12,7 +12,7 @@ Our deck (is preloaded):
 */
 
 function defineSuit(card) {
-    const cardSuit = card[length - 1]
+    const cardSuit = card[card.length - 1]
     switch(cardSuit) {
         case "♣":
             return "clubs";

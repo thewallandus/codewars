@@ -18,5 +18,12 @@ lowercaseCount("abcdefghijklmnopqrstuvwxyz"); ===> 26
 */
 
 function lowercaseCount(str){
-    //How many?
+    let count = 0
+    let letters = /^[a-z]+$/
+    for (let i = 0; i < str.length; i++) {
+        if (str[i].match(letters)) {
+            count++
+        }
+    }
+    return count
 }

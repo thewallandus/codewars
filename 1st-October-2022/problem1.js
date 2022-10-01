@@ -12,5 +12,19 @@ Our deck (is preloaded):
 */
 
 function defineSuit(card) {
-    // good luck
+    const cardSuit = card[length - 1]
+    switch(cardSuit) {
+        case "♣":
+            return "clubs";
+        break;
+        case "♦":
+            return "diamonds";
+        break;
+        case "♥":
+            return "hearts";
+        break;
+        case "♠":
+            return "spades";
+        break;
+    }
   }

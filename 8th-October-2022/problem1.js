@@ -12,5 +12,5 @@ Examples (Input --> Output)
 */
 
 function validatePIN (pin) {
-    //return true or false
-  }
+    
+}

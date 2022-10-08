@@ -27,6 +27,7 @@ You can assume that all inputs are valid integers.
 // 12   ->   15
 // P => pseudo-code
 
+
 function roundToNext5(n){
-    
-}
+    return Math.ceil(n / 5) * 5;
+  }

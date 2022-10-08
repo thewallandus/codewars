@@ -20,6 +20,13 @@ You can assume that all inputs are valid integers.
 
 */
 
+// P => parameter is a number and an integer
+// R => a number that is the greater than or equal to 5
+// E => 2    ->   5
+// 3    ->   5
+// 12   ->   15
+// P => pseudo-code
+
 function roundToNext5(n){
-    // ...
-  }
+    
+}

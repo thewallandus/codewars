@@ -28,6 +28,14 @@ You can assume that all inputs are valid integers.
 // P => pseudo-code
 
 
+// function roundToNext5(n){
+//     return Math.ceil(n / 5) * 5;
+//   }
+
 function roundToNext5(n){
-    return Math.ceil(n / 5) * 5;
-  }
+		while (n % 5 !== 0) {n++}
+  	return n
+}
+
+roundToNext5(4)
+

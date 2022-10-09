@@ -15,3 +15,8 @@ calculator(1,"k","*"); //=> result will be "unknown value"
 Good luck!
 
 */
+
+function calculator(a,b,sign){
+    
+
+}

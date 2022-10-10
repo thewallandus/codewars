@@ -48,3 +48,11 @@ I've defined two array odd and even in the function, and also wrote the return s
 If you forgot how to push an element to array, please refer to lesson 4.
 
 */
+
+function pickIt(arr){
+    var odd=[],even=[];
+    //coding here
+    
+    
+    return [odd,even];
+  }

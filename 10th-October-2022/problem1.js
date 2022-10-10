@@ -52,7 +52,12 @@ If you forgot how to push an element to array, please refer to lesson 4.
 function pickIt(arr){
     var odd=[],even=[];
     //coding here
-    
-    
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] % 2 === 0) {
+            even.push(arr[i])
+        } else {
+            odd.push(arr[i])
+        }
+    }
     return [odd,even];
   }

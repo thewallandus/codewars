@@ -15,18 +15,17 @@ checkExam(["b", "c", "b", "a"], ["",  "a", "a", "c"]) → 0
 
 */
 
-function checkExam(array1, array2) {
-    let sum = 0
-    for (let i = 0; i<array1.length; i++) {
-        for (let j=0; j <array2.length; j++) {
-            if (array1[i] === array2[j]) {
-                sum+=4
-            } else if (array1[i] !== array2[j]) {
-                sum-=1 
-            } else if (array2[j] === "") {
-                sum += 0
-            }
-        }
+function checkExam(arr1, arr2) {
+    let score = 0;
+    for (let i = 0; i < arr1.length; i++) {
+      if (arr1[i] === arr2[i]) {
+        score += 4;
+      } else if (arr2[i] === '') {
+        score += 0;
+      } else {
+        score -= 1;
+      }
     }
-    return sum < 0 ? 0 : sum
-}
+    return score < 0 ? 0 : score;
+  }
+  

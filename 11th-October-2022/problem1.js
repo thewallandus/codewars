@@ -16,5 +16,17 @@ checkExam(["b", "c", "b", "a"], ["",  "a", "a", "c"]) → 0
 */
 
 function checkExam(array1, array2) {
-    // good luck
-   }
+    let sum = 0
+    for (let i = 0; i<array1.length; i++) {
+        for (let j=0; j <array2.length; j++) {
+            if (array1[i] === array2[j]) {
+                sum+=4
+            } else if (array1[i] !== array2[j]) {
+                sum-=1 
+            } else if (array2[j] === "") {
+                sum += 0
+            }
+        }
+    }
+    return sum < 0 ? 0 : sum
+}

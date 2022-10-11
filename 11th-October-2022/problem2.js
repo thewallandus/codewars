@@ -16,5 +16,11 @@ The parameters (divisor, bound) passed to the function are only positive values 
 */
 
 function maxMultiple(divisor, bound){
-    //your code here
-  }
+    const arr = []
+    for (let i = 0; i <= bound; i+=divisor) {
+        if (i % divisor === 0) {
+            arr.push(i)
+        }
+    }
+    return Math.max(...arr) 
+}

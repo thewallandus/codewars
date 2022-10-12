@@ -16,5 +16,9 @@ This is indexed from [1..n] (not zero indexed!)
 */
 
 function vowelIndices(word){
-    //your code here
+    // create a list of vowels
+    // create an empty array to store the location
+    // run a for loop
+    // and check if the word has any vowel
+    // push i into an array if there is a match
   }

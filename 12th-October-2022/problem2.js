@@ -21,4 +21,15 @@ function vowelIndices(word){
     // run a for loop
     // and check if the word has any vowel
     // push i into an array if there is a match
-  }
+    const wordInArray = word.split('')
+    const vowels = ["a", "e", "i", "o", "u", "y"]
+    const indexWord = []
+    for (let i = 0; i < wordInArray.length; i++) {
+        for (let j = 0; j < vowels.length; j++) {
+            if (word[i] === vowels[j] || word[i] === vowels[j].toUpperCase()) {
+                indexWord.push(i + 1)
+            }
+        }
+    }
+    return indexWord
+}

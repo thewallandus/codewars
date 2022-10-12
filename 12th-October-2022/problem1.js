@@ -9,6 +9,23 @@
 // solve("coDE") = "code". Upper == lowercase. Change all to lowercase.
 // More examples in test cases. Good luck!
 
+
 function solve(s){
-    //..
+    // first if uppercase is more
+    // or lowercase is more
+    // create upper case array
+    // create lowercase empty array
+    // find which length is more
+    // if uppercase length more => then turn lowercase into uppercase
+    // if lowercase length more => then turn uppercase into lowercase
+    const uppercase = []
+    const lowercase = []
+    for (let i = 0; i < s.length; i++) {
+      if (s[i].toUpperCase() === s[i]) {
+        uppercase.push(s[i])
+      } else {
+        lowercase.push(s[i])
+      }
+    }
+  	return uppercase.length > lowercase.length ? s.toUpperCase() : s.toLowerCase()
 }

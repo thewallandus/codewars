@@ -15,5 +15,9 @@ should return :
 */
 
 function explode(s) {
-    return "";
-  }
+    let str = ''
+    for (let i = 0; i < s.length; i++) {
+        str += s[i].repeat([Number(s[i])])
+    }
+    return str
+}

@@ -13,4 +13,6 @@ Please, keep in mind, that JavaScript is by default sorting objects alphabetical
 */
 
 function flattenAndSort(array) {
+	const arrayJoined = array.flat().sort((a,b) => a-b)
+    return arrayJoined
 }

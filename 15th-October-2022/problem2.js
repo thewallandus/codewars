@@ -10,6 +10,8 @@ For example:
 
 */
 
+
 function evenNumbers(array, number) {
-        
+    const even = array.filter(item => item % 2 === 0).splice(-number)
+    return even
 }

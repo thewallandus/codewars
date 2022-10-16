@@ -13,6 +13,10 @@ The search function should return a string of prices for the coffees beans you c
 */
 
 function search(budget, prices) {
-
-    
+    // create an empty array that will hold the numbers that fit the condition
+    // if less that or equal to the budget
+    // push to the new array
+    // run a for each loop or filter loop through prices
+    const canAfford = prices.filter(item => item <= budget)
+    return canAfford.sort((a, b) => a - b).join(',')
 }

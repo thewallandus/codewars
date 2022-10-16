@@ -12,5 +12,5 @@ You will be given a string of numbers and letters mixed up, you have to return a
 */
 
 var filterString = function(value) {
-    //Complete this function :)
-  }
+    return parseInt(value.match(/\d/g).join(''))
+ }

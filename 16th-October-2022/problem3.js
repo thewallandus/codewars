@@ -29,4 +29,5 @@ The minimum sum obtained from summing each two integers product ,  9*0 + 8*2 +7*
 //    }
 
 const minSum = arr =>
-  arr.sort((a, b) => a - b).reduce((pre, val) => pre + val * arr.pop(), 0);
+  arr.sort((a, b) => a - b)
+  .reduce((pre, val) => pre + val * arr.pop(), 0);

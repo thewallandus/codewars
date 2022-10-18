@@ -22,7 +22,30 @@ The other letters don't have power and are only victims.
 
 */
 
-function alphabetWar(fight)
-{
-   return "Let's fight again!";
+
+function alphabetWar(fight) {
+    let sumLeft = 0
+    let sumRight = 0
+    for (let i = 0; i < fight.length; i++) {
+        if (fight[i] === 'w') {
+            sumLeft += 4
+        } else if (fight[i] === 'p') {
+            sumLeft += 3
+        } else if (fight[i] === 'b') {
+            sumLeft += 2
+        } else if (fight[i] === 's') {
+            sumLeft += 1
+        } else if (fight[i] === 'm') {
+            sumRight += 4
+        } else if (fight[i] === 'q') {
+            sumRight += 3
+        } else if (fight[i] === 'd') {
+            sumRight += 2
+        }else if (fight[i] === 'z') {
+            sumRight += 1
+        } 
+    }
+    return sumRight > sumLeft ? "Right side wins!"
+        : sumLeft > sumRight ? "Left side wins!"
+        : "Let's fight again!"
 }

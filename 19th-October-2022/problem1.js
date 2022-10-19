@@ -11,11 +11,19 @@ Complete the function that takes an integer n and returns a list/array of length
 
 Examples
  5  -->  [0,  1,  3,  6,  10,  15]
+            [0, 0+1, 0+1+2+3, 0+1+2+3+4, 0+1+2+3+4+5]
+            []
 -5  -->  [0, -1, -3, -6, -10, -15]
  7  -->  [0,  1,  3,  6,  10,  15,  21,  28]
+=> [0, 0+1, 0+1+2, 0+1+2+3, 0+1+2+3]
 
 */
-
 function sumOfN(n) {
-    // insert here your code
-    };
+    var res = [0];
+    for(var i = 1; i <= Math.abs(n); i++) {
+      res.push(((n < 0) ? -1 : 1) * (Math.abs(res[i - 1]) + i));
+    }
+  
+    return res;
+  };
+    

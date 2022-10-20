@@ -11,5 +11,11 @@ solution({a: 1, b: '2'}) // should return "a = 1,b = 2"
 */
 
 function solution(pairs){
-    // TODO: complete
+	const arrayKeys = Object.keys(pairs)
+  const arrayValues = Object.values(pairs)
+ 	let str = ''
+  for (let i = 0; i < arrayKeys.length; i++) {
+      str += `${arrayKeys[i]} = ${arrayValues[i]},`
   }
+  return str.slice(0, -1)
+}

@@ -7,5 +7,5 @@ Your code will show Full name of the neighbor and the truncated version of the n
 */
 
 function whoIsPaying(name){
-    //your code here
+    return name.length <= 2 ? [name] : [name ,`${name[0]}${name[1]}`] 
   }

@@ -11,5 +11,13 @@
 // Return the resulting array
 
 function isVow(a){
-
+    const newA = a.map(number => {
+        return number === 101 ? 'e' 
+            : number === 97 ? 'a'
+            : number === 105 ? 'i'
+            : number === 111 ? 'o'
+            : number === 117 ? 'u'
+            : number
+    })
+    return newA
 }

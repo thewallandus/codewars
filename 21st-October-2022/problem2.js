@@ -7,5 +7,11 @@ Unfortunately for you, your drive is very bumpy! Given a string showing either f
 */
 
 function bump(x){
-
+    let count = 0
+    for (let i = 0; i < x.length; i++) {
+        if (x[i] === 'n') {
+            count++
+        }
+    }
+    return count <= 15 ? 'Woohoo!' : 'Car Dead'
 }

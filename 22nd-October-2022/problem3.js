@@ -31,5 +31,7 @@ Note : duplications are not included when summing , (i.e) the numbers added only
 */
 
 function maxTriSum(numbers){
-    
+    const newNums = numbers.sort((a,b) => b - a)
+    const mySet = [... new Set(newNums)];
+    return mySet[0] + mySet[1] + mySet[2]
 }

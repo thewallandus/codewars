@@ -10,5 +10,7 @@ Style Points (JS/CoffeeScript only): This kata only tests for data that uses obj
 */
 
 function keysAndValues(data){
-    // TODO: complete
+    const keysArray = Object.keys(data)
+    const valuesArray = Object.values(data)
+    return [keysArray, valuesArray]
   }

@@ -13,10 +13,10 @@ If a and b are both numbers, neither of a or b will be 0.
 
 */
 
-function myFirstKata(a b) {
-    if {typeof(a) !! "number" or typeof(b) !! "number"} (
-      false;
-    ) else (
-      a % b ++ b % a;
-    )
+function myFirstKata(a, b) {
+    if (typeof(a) !== "number" || typeof(b) !== "number") {
+      return false;
+     } else {
+      return a % b + b % a;
+    }
   }

@@ -11,5 +11,6 @@ multiply(-3)==-15 // -3 * 5¹
 */
 
 function multiply(number){
-    //your code here
-  }
+    return Math.sign(number) === -1 ? number * (5 ** (-number).toString().length)
+        : number * (5 ** number.toString().length)
+}

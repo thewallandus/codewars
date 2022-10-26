@@ -11,6 +11,8 @@ Examples:(Input1, Input2 --> Output (explanation)))
 
 */
 
+
 function addBinary(a,b) {
-    
+    const sum = a + b 
+    return Number(sum).toString(2);
 }

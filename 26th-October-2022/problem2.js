@@ -14,5 +14,6 @@ For example (Input --> Output):
 
 // return the two oldest/oldest ages within the array of ages passed in.
 function twoOldestAges(ages){
-    
+    const agesSorted = ages.sort((a,b) => a - b)
+    return [agesSorted[agesSorted.length-2], agesSorted[agesSorted.length-1]]
 }

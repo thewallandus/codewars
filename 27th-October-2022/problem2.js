@@ -18,5 +18,5 @@ The given name may varies in casing, eg., it can be "George Saint Pierre" or "ge
 */
 
 var quote = function(fighter) {
-    // your code here
+    return fighter.toLowerCase() === 'george saint pierre' ? "I am not impressed by your performance." : "I'd like to take this chance to apologize.. To absolutely NOBODY!"
 };

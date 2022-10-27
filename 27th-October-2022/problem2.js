@@ -19,4 +19,4 @@ The given name may varies in casing, eg., it can be "George Saint Pierre" or "ge
 
 var quote = function(fighter) {
     // your code here
-  };
+};

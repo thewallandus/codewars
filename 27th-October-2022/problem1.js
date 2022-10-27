@@ -16,7 +16,6 @@ fizzbuzz(3) -->  [1, 2, "Fizz"]
 */
 
 // Return an array
-function fizzbuzz(n)
-{
-  //
+function fizzbuzz(n) {
+  
 }

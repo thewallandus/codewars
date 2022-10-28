@@ -30,3 +30,25 @@ last [x] = x
 */
 
 // TODO: implement the four functions specified.
+
+
+// TODO: implement the four functions specified.
+
+
+function head(array) {
+    return Number(array.filter((item, index) => index === 0))
+}
+
+
+function tail(array) {
+    return (array.filter((item, index) => index !== 0))
+}
+
+function init(array) {
+    return array.filter((item, index) => index !== array.length - 1)
+}
+
+
+function last(array) {
+    return Number(array.filter((item, index) => index === array.length - 1))
+}

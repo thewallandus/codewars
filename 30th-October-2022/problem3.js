@@ -33,18 +33,20 @@ seven(1603) should return [7, 2]
 15 - 8 = 7
 seven(477557101) should return [28, 7]
 
-*/
-function seven(m) {    
+*/ 
+
+const seven = m => {
     let count = 0;
-  
-    while(m > 99) {
-      m = parseInt(m / 10) - (2 * (m % 10)); 
+    while (m.toString().length > 2) {
+      let str = m.toString();
+      let x = str.slice(0, -1);
+      console.log(x)
+      let y = str.slice(-1);
+      m = x - 2 * y;
       count++;
     }
-  
     return [m, count];
   }
-
 
 
 

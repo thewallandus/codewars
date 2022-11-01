@@ -12,6 +12,13 @@ Examples:
 
 */
 
+
 function getMissingElement(superImportantArray){
-    
+    const superArr = superImportantArray.sort((a,b) => a-b)
+    const checkArray = [0,1,2,3,4,5,6,7,8,9]
+    for (let i = 0; i < checkArray.length; i++) {
+      if (superArr[i] !== checkArray[i]) {
+        return checkArray[i]
+      }
+    }
 }

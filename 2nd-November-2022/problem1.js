@@ -10,8 +10,11 @@ Examples
 {"C++": 50, "ASM": 10, "Haskell": 20}     -->  []
 
 */
-
 function myLanguages(results) {
-    const resultsArr = [results]
-    const filteredResults = 
+    const values = Object.values(results).filter(item => item >= 60).sort((a,b) => b - a)
+    const array = []
+    for (let i = 0; i < values.length; i++) {
+      array.push(Object.keys(results).find(key => results[key] === values[i]))
+    }
+    return array
 }

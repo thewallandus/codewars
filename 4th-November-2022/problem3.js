@@ -25,5 +25,8 @@ If you make it, return "Alive!", if not, return "Shark Bait!".
 */
 
 function shark(pontoonDistance, sharkDistance, youSpeed, sharkSpeed, dolphin){
-
+    const realSharkSpeed = dolphin ? (sharkSpeed / 2) : sharkSpeed 
+    const sharkFromPontoon = pontoonDistance * realSharkSpeed
+    const youFromPontoon = sharkDistance * youSpeed
+    return youFromPontoon > sharkFromPontoon ? "Alive!" : "Shark Bait!"
 }

@@ -24,5 +24,5 @@ All data will always be valid and uniform as in the example above.
 */
 
 function countDevelopers(list) {
-    // your awesome code here :)
-  }
+    return list.filter(item => item.continent === 'Europe' && item.language === 'JavaScript').length === 0 ? 0 : list.filter(item => item.continent === 'Europe' && item.language === 'JavaScript').length
+}

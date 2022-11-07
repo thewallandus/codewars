@@ -21,9 +21,9 @@ function yourFutureCareer () {
 			return 'FrontEnd Developer' 
     } else if (career <= 0.65) {
 			return 'BackEnd Developer'
-		} else {
+	} else {
 			return 'Full-Stack Developer'
-		}
+	}
 }
 
 

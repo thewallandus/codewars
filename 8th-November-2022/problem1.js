@@ -4,19 +4,14 @@ Shouldn't the two functions getMax1 and getMax2 be equivalent and return the sam
 
 */
 
-function getMax1()
-{
-  var max = 
-  {
-   name: 'Max Headroom'
+function getMax1() {
+    var max = {
+     name: 'Max Headroom'
+    }
+    return max
   }
-  return max;
-}
-
-function getMax2()
-{
-  return
-  {
-    name: 'Max Headroom'
+  
+function getMax2() {
+    return getMax1()
   }
-}
+  
